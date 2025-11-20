@@ -5,17 +5,29 @@ Adds a set of custom music discs to the game, featuring iconic Alan Walker songs
 The following songs have been added:
 
 -Avalon
+
 -Old Habits
+
 -WorldOfWalker - Rise of the Drones
+
 -Believers
+
 -Creator Circle
+
 -Dust
+
 -Faded
+
 -Heartbreak Melody
+
 -Time
+
 -Moonshine
+
+
 -Incommunicado
--Welcome to Walkerworld
+
+-Welcome to Walkerworld        
 
 Custom Mobs
 Custom Mobs Encounter three unique new mobs that fit the Alan Walker world theme. These offer an exciting addition to the gameplay.
