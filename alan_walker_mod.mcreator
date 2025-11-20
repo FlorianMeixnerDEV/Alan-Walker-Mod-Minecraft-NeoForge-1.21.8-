@@ -1,0 +1,749 @@
+{
+  "mod_elements": [
+    {
+      "name": "Schallplatten",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schallplatten",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CreativeGUI"
+    },
+    {
+      "name": "AvalonDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avalon_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/models/item/avalon_disc.json",
+          "src/main/resources/assets/alan_walker_mod/items/avalon_disc.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/avalon_disc.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/AvalonDiscItem.java"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "BelieversDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "believers_disc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/BelieversDiscItem.java",
+          "src/main/resources/assets/alan_walker_mod/models/item/believers_disc.json",
+          "src/main/resources/assets/alan_walker_mod/items/believers_disc.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/believers_disc.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "CreatorCircleDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creator_circle_disc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/CreatorCircleDiscItem.java",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/creator_circle_disc.json",
+          "src/main/resources/assets/alan_walker_mod/items/creator_circle_disc.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/creator_circle_disc.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "DustDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust_disc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/DustDiscItem.java",
+          "src/main/resources/assets/alan_walker_mod/models/item/dust_disc.json",
+          "src/main/resources/assets/alan_walker_mod/items/dust_disc.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/dust_disc.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "FadedDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/faded_disc.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/FadedDiscItem.java",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/faded_disc.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/faded_disc.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "Incommunicado",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incommunicado",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/incommunicado.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/IncommunicadoItem.java",
+          "src/main/resources/assets/alan_walker_mod/models/item/incommunicado.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/incommunicado.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "Moonshine",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonshine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/moonshine.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/moonshine.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/moonshine.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/MoonshineItem.java"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "OldHabits",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_habits",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/old_habits.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/OldHabitsItem.java",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/old_habits.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/old_habits.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "Time",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/TimeItem.java",
+          "src/main/resources/assets/alan_walker_mod/items/time.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/time.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/time.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "WelcomeToWalkerworld",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_to_walkerworld",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/models/item/welcome_to_walkerworld.json",
+          "src/main/resources/assets/alan_walker_mod/items/welcome_to_walkerworld.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/welcome_to_walkerworld.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/WelcomeToWalkerworldItem.java"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "RiseOfTheDrones",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rise_of_the_drones",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/rise_of_the_drones.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/rise_of_the_drones.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/rise_of_the_drones.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/RiseOfTheDronesItem.java"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "Spawneier",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawneier",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CreativeGUI"
+    },
+    {
+      "name": "AlanWalker",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alan_walker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/client/renderer/AlanWalkerRenderer.java",
+          "src/main/resources/data/alan_walker_mod/neoforge/biome_modifier/alan_walker_biome_modifier.json",
+          "src/main/resources/assets/alan_walker_mod/items/alan_walker_spawn_egg.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/entity/AlanWalkerEntity.java",
+          "src/main/resources/assets/alan_walker_mod/models/item/alan_walker_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "AlanWalkerZombie",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alan_walker_zombie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/alan_walker_zombie_spawn_egg.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/entity/AlanWalkerZombieEntity.java",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/client/renderer/AlanWalkerZombieRenderer.java",
+          "src/main/resources/assets/alan_walker_mod/models/item/alan_walker_zombie_spawn_egg.json",
+          "src/main/resources/data/alan_walker_mod/neoforge/biome_modifier/alan_walker_zombie_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "InvisibleItemframe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_itemframe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/procedures/InvisibleItemframeProcedure.java"
+        ]
+      },
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "InvisibleItemFrameProzedur",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_item_frame_prozedur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/command/InvisibleItemFrameProzedurCommand.java"
+        ]
+      },
+      "path": "~/Befehle"
+    },
+    {
+      "name": "AlanGuard",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alan_guard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/models/item/alan_guard_spawn_egg.json",
+          "src/main/resources/data/alan_walker_mod/neoforge/biome_modifier/alan_guard_biome_modifier.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/entity/AlanGuardEntity.java",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/client/renderer/AlanGuardRenderer.java",
+          "src/main/resources/assets/alan_walker_mod/items/alan_guard_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "AlanWalkerNoAI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alan_walker_no_ai",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/procedures/AlanWalkerNoAIProcedure.java"
+        ]
+      },
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "AlanGuardNoAIProzedur",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alan_guard_no_ai_prozedur",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/procedures/AlanGuardNoAIProzedurProcedure.java"
+        ]
+      },
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "AlanWalkerNoAIBefehl",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alan_walker_no_ai_befehl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/command/AlanWalkerNoAIBefehlCommand.java"
+        ]
+      },
+      "path": "~/Befehle"
+    },
+    {
+      "name": "AlanZombieNoAIProzedur",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alan_zombie_no_ai_prozedur",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/procedures/AlanZombieNoAIProzedurProcedure.java"
+        ]
+      },
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "AlanZombieNoAIBefehl",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alan_zombie_no_ai_befehl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/command/AlanZombieNoAIBefehlCommand.java"
+        ]
+      },
+      "path": "~/Befehle"
+    },
+    {
+      "name": "AlanGuardNoAIBefehl",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alan_guard_no_ai_befehl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/command/AlanGuardNoAIBefehlCommand.java"
+        ]
+      },
+      "path": "~/Befehle"
+    },
+    {
+      "name": "AdminSchwertProzedur",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_schwert_prozedur",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/procedures/AdminSchwertProzedurProcedure.java"
+        ]
+      },
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "AdminSchwert",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_schwert",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/command/AdminSchwertCommand.java"
+        ]
+      },
+      "path": "~/Befehle"
+    },
+    {
+      "name": "Katana",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/KatanaItem.java",
+          "src/main/resources/assets/alan_walker_mod/items/katana.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/katana.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Waffen",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waffen",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CreativeGUI"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "avalon",
+      "files": [
+        "avalon"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "oldhabits",
+      "files": [
+        "oldhabits"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "worldofwalker_riseofthedrones",
+      "files": [
+        "worldofwalker_riseofthedrones"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "believers",
+      "files": [
+        "believers"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "creatorcircle",
+      "files": [
+        "creatorcircle"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "dust",
+      "files": [
+        "dust"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "faded",
+      "files": [
+        "faded"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "heartbreakmelody",
+      "files": [
+        "heartbreakmelody"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "time",
+      "files": [
+        "time"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "moonshine",
+      "files": [
+        "moonshine"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "incommunicado",
+      "files": [
+        "incommunicado"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "welcometowalkerworld",
+      "files": [
+        "welcometowalkerworld"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "hello",
+      "files": [
+        "alan_walker_hello_hello"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:RiseOfTheDrones",
+      "~CUSTOM:WelcomeToWalkerworld",
+      "~CUSTOM:Time",
+      "~CUSTOM:OldHabits",
+      "~CUSTOM:Moonshine",
+      "~CUSTOM:Incommunicado",
+      "~CUSTOM:FadedDisc",
+      "~CUSTOM:DustDisc",
+      "~CUSTOM:CreatorCircleDisc",
+      "~CUSTOM:BelieversDisc",
+      "~CUSTOM:AvalonDisc"
+    ],
+    "ENTITIES:minecraft:undead": [
+      "~CUSTOM:AlanWalkerZombie"
+    ],
+    "ENTITIES:minecraft:illager": [
+      "~CUSTOM:AlanWalker"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Katana"
+    ],
+    "ITEMS:alan_walker_mod:katana_repair_items": [
+      "~Items.IRON_INGOT",
+      "~Items.STICK"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.avalon": "",
+      "subtitles.oldhabits": "",
+      "subtitles.worldofwalker_riseofthedrones": "",
+      "subtitles.believers": "",
+      "subtitles.creatorcircle": "",
+      "subtitles.dust": "",
+      "subtitles.faded": "",
+      "subtitles.heartbreakmelody": "",
+      "subtitles.time": "",
+      "subtitles.moonshine": "",
+      "subtitles.incommunicado": "",
+      "subtitles.welcometowalkerworld": "",
+      "item_group.alan_walker_mod.schallplatten": "Schallplatten",
+      "item.alan_walker_mod.avalon_disc.desc": "Alan Walker, Anne Gudrun - Avalon",
+      "item.alan_walker_mod.avalon_disc": "Schallplatte",
+      "item.alan_walker_mod.believers_disc.desc": "Alan Walker, Conor Maynard - Believers",
+      "item.alan_walker_mod.believers_disc": "Schallplatte",
+      "item.alan_walker_mod.creator_circle_disc.desc": "Alan Walker - Creator Circle",
+      "item.alan_walker_mod.creator_circle_disc": "Schallplatte",
+      "item.alan_walker_mod.dust_disc.desc": "Alan Walker, Robin Packalen - Dust",
+      "item.alan_walker_mod.dust_disc": "Schallplatte",
+      "item.alan_walker_mod.faded_disc.desc": "Alan Walker - Faded",
+      "item.alan_walker_mod.faded_disc": "Schallplatte",
+      "item.alan_walker_mod.incommunicado.desc": "Alan Walker, AR/CO - Incommunicado",
+      "item.alan_walker_mod.incommunicado": "Schallplatte",
+      "item.alan_walker_mod.moonshine": "Schallplatte",
+      "item.alan_walker_mod.moonshine.desc": "Alan Walker, Elley Duhé - Moonshine",
+      "item.alan_walker_mod.old_habits": "Schallplatte",
+      "item.alan_walker_mod.old_habits.desc": "Alan Walker, Farruko \u0026 Sofia Reyes - Old Habits",
+      "item.alan_walker_mod.time": "Schallplatte",
+      "item.alan_walker_mod.time.desc": "Alan Walker, Hans Zimmer - Time",
+      "item.alan_walker_mod.welcome_to_walkerworld": "Schallplatte",
+      "item.alan_walker_mod.welcome_to_walkerworld.desc": "Alan Walker - Wecome to Walkerworld",
+      "item.alan_walker_mod.rise_of_the_drones.desc": "WorldOfWalker - Rise Of The Drones",
+      "item.alan_walker_mod.rise_of_the_drones": "Schallplatte",
+      "item_group.alan_walker_mod.spawneier": "Mobs",
+      "subtitles.hello": "",
+      "entity.alan_walker_mod.alan_walker": "Alan Walker",
+      "item.alan_walker_mod.alan_walker_spawn_egg": "Alan Walker Spawn Egg",
+      "entity.alan_walker_mod.alan_walker_zombie": "Alan Zombie",
+      "item.alan_walker_mod.alan_walker_zombie_spawn_egg": "Alan Zombie Spawn Egg",
+      "item.alan_walker_mod.alan_guard_spawn_egg": "Guard Spawn Egg",
+      "entity.alan_walker_mod.alan_guard": "Guard",
+      "item.alan_walker_mod.katana": "Katana",
+      "item_group.alan_walker_mod.waffen": "Waffen"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModItems.java",
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModEntities.java",
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModEntityRenderers.java",
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModSounds.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/alan_walker_mod/sounds.json",
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/AlanWalkerModMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Disc",
+        "children": []
+      },
+      {
+        "name": "Prozeduren",
+        "children": []
+      },
+      {
+        "name": "Befehle",
+        "children": []
+      },
+      {
+        "name": "CreativeGUI",
+        "children": []
+      },
+      {
+        "name": "Dorfbewohner",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "alan_walker_mod",
+    "modName": "Alan Walker Mod",
+    "version": "1.1Alpha",
+    "author": "FlorianMeixnerDEV",
+    "websiteURL": "https://florianmeixnerdev.4lima.de",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "awlogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Creator: Florian Meixner ",
+    "modElementsPackage": "net.florianmeixnerdev.alanwalkermod"
+  },
+  "mcreatorVersion": 202500345720
+}

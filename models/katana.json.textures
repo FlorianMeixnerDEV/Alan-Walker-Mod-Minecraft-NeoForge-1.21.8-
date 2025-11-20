@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "gold_block",
+        "1": "purple_concrete",
+        "2": "quartz_block_bottom",
+        "3": "quartz_block_bottom",
+        "4": "stone",
+        "missing": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.alan_walker_mod.faded_disc.desc"
+  },
+  "length_in_seconds": 212,
+  "sound_event": "alan_walker_mod:faded"
+}

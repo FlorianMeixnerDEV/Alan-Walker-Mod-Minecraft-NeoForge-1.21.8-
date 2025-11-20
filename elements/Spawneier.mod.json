@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Mobs",
+    "icon": {
+      "value": "Items.SPAWN_EGG#51"
+    },
+    "showSearch": true
+  }
+}

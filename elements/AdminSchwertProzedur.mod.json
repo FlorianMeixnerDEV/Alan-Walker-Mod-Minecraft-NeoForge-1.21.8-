@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">give @a netherite_sword[enchantable={value:1},enchantments={bane_of_arthropods:96,fire_aspect:99,looting:99,sharpness:100,silk_touch:1,smite:99,sweeping_edge:99}]</field></block></value><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value><next><block type=\"execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">say §4 Admin-Schwert wurde ins Inventar gelegt!</field></block></value><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value></block></next></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

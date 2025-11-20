@@ -1,0 +1,12 @@
+{
+  "parent": "alan_walker_mod:custom/katana",
+  "textures": {
+    "0": "alan_walker_mod:block/gold_block",
+    "1": "alan_walker_mod:block/purple_concrete",
+    "2": "alan_walker_mod:block/quartz_block_bottom",
+    "3": "alan_walker_mod:block/quartz_block_bottom",
+    "4": "alan_walker_mod:block/stone",
+    "missing": "alan_walker_mod:block/",
+    "particle": "alan_walker_mod:item/gesammt"
+  }
+}

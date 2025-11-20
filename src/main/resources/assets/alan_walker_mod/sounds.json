@@ -1,0 +1,106 @@
+{
+  "avalon": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:avalon",
+        "stream": false
+      }
+    ]
+  },
+  "oldhabits": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:oldhabits",
+        "stream": false
+      }
+    ]
+  },
+  "worldofwalker_riseofthedrones": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:worldofwalker_riseofthedrones",
+        "stream": false
+      }
+    ]
+  },
+  "believers": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:believers",
+        "stream": false
+      }
+    ]
+  },
+  "creatorcircle": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:creatorcircle",
+        "stream": false
+      }
+    ]
+  },
+  "dust": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:dust",
+        "stream": false
+      }
+    ]
+  },
+  "faded": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:faded",
+        "stream": false
+      }
+    ]
+  },
+  "heartbreakmelody": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:heartbreakmelody",
+        "stream": false
+      }
+    ]
+  },
+  "time": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:time",
+        "stream": false
+      }
+    ]
+  },
+  "moonshine": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:moonshine",
+        "stream": false
+      }
+    ]
+  },
+  "incommunicado": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:incommunicado",
+        "stream": false
+      }
+    ]
+  },
+  "welcometowalkerworld": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:welcometowalkerworld",
+        "stream": false
+      }
+    ]
+  },
+  "hello": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:alan_walker_hello_hello",
+        "stream": false
+      }
+    ]
+  }
+}

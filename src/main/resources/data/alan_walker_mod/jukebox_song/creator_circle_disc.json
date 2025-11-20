@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.alan_walker_mod.creator_circle_disc.desc"
+  },
+  "length_in_seconds": 169,
+  "sound_event": "alan_walker_mod:creatorcircle"
+}
