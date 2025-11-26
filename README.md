@@ -17,15 +17,15 @@ The following songs have been added:
 -Incommunicado<br>
 -Welcome to Walkerworld<br>
 
-Custom Mobs
+Custom Mobs<br>
 Custom Mobs Encounter three unique new mobs that fit the Alan Walker world theme. These offer an exciting addition to the gameplay.
 
-The following mobs are included:
+The following mobs are included:<br>
 
-Alan Walker:
+Alan Walker:<br>
 This mob is peaceful. You can "tame" it with a diamond, and it will then follow you everywhere.
 
-Zombified Alan:
+Zombified Alan:<br>
 This mob is recognizable by its red eyes. It attacks you and inflicts damage.
 
 Guard: It protects you from all evil mobs.
