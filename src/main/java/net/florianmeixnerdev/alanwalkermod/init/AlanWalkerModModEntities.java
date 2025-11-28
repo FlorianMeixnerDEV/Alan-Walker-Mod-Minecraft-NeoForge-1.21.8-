@@ -30,11 +30,13 @@ public class AlanWalkerModModEntities {
 
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<AlanWalkerZombieEntity>> ALAN_WALKER_ZOMBIE = register("alan_walker_zombie",
-			EntityType.Builder.<AlanWalkerZombieEntity>of(AlanWalkerZombieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(32).setUpdateInterval(3)
+			EntityType.Builder.<AlanWalkerZombieEntity>of(AlanWalkerZombieEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(32).setUpdateInterval(3)
 
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<AlanGuardEntity>> ALAN_GUARD = register("alan_guard",
-			EntityType.Builder.<AlanGuardEntity>of(AlanGuardEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
+			EntityType.Builder.<AlanGuardEntity>of(AlanGuardEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

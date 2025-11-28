@@ -1,0 +1,9 @@
+{
+  "parent": "alan_walker_mod:custom/stuhl",
+  "textures": {
+    "all": "alan_walker_mod:block/texture",
+    "particle": "alan_walker_mod:block/texture",
+    "0": "alan_walker_mod:block/texture"
+  },
+  "render_type": "solid"
+}

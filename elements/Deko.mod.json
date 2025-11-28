@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Deko",
+    "icon": {
+      "value": "Blocks.GOLD_BLOCK"
+    },
+    "showSearch": false
+  }
+}

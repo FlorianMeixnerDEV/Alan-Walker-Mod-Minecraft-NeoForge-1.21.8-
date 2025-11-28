@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alan_walker_mod:block/stuhl"
+    },
+    "facing=east": {
+      "model": "alan_walker_mod:block/stuhl",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alan_walker_mod:block/stuhl",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alan_walker_mod:block/stuhl",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "alan_walker_mod:block/stuhl",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "alan_walker_mod:block/stuhl",
+      "x": 90
+    }
+  }
+}

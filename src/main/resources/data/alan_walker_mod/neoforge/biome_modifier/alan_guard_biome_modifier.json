@@ -6,7 +6,7 @@
   "spawners": {
     "type": "alan_walker_mod:alan_guard",
     "weight": 20,
-    "minCount": 4,
-    "maxCount": 4
+    "minCount": 3,
+    "maxCount": 5
   }
 }

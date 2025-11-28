@@ -10,8 +10,6 @@ import net.minecraft.client.model.HumanoidModel;
 
 import net.florianmeixnerdev.alanwalkermod.entity.AlanGuardEntity;
 
-import com.mojang.blaze3d.vertex.PoseStack;
-
 public class AlanGuardRenderer extends HumanoidMobRenderer<AlanGuardEntity, HumanoidRenderState, HumanoidModel<HumanoidRenderState>> {
 	private AlanGuardEntity entity = null;
 
@@ -34,10 +32,5 @@ public class AlanGuardRenderer extends HumanoidMobRenderer<AlanGuardEntity, Huma
 	@Override
 	public ResourceLocation getTextureLocation(HumanoidRenderState state) {
 		return ResourceLocation.parse("alan_walker_mod:textures/entities/guardskin.png");
-	}
-
-	@Override
-	protected void scale(HumanoidRenderState state, PoseStack poseStack) {
-		poseStack.scale(entity.getAgeScale(), entity.getAgeScale(), entity.getAgeScale());
 	}
 }

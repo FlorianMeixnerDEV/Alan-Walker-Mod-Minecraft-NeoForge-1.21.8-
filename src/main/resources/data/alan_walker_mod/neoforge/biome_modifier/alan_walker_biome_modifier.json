@@ -7,6 +7,6 @@
     "type": "alan_walker_mod:alan_walker",
     "weight": 10,
     "minCount": 1,
-    "maxCount": 5
+    "maxCount": 1
   }
 }

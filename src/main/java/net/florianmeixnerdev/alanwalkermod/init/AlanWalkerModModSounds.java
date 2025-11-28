@@ -29,4 +29,6 @@ public class AlanWalkerModModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> WELCOMETOWALKERWORLD = REGISTRY.register("welcometowalkerworld",
 			() -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "welcometowalkerworld")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> HELLO = REGISTRY.register("hello", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "hello")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> LONELYCLUB = REGISTRY.register("lonelyclub", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "lonelyclub")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> SAILING = REGISTRY.register("sailing", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "sailing")));
 }

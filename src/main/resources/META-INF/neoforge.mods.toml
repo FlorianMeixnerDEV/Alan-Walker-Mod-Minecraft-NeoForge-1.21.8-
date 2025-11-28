@@ -4,12 +4,13 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="alan_walker_mod"
-version="1.1"
+version="1.0"
 displayName="Alan Walker Mod"
 displayURL="https://florianmeixnerdev.4lima.de"
 logoFile="logo.png"
 credits="Creator: Florian Meixner "
 authors="FlorianMeixnerDEV"
+description="Alan Walker Music-Mod"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

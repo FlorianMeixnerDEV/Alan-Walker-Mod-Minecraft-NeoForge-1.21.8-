@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alan_walker_mod:block/groser_tisch"
+    },
+    "facing=east": {
+      "model": "alan_walker_mod:block/groser_tisch",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alan_walker_mod:block/groser_tisch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alan_walker_mod:block/groser_tisch",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "alan_walker_mod:block/groser_tisch",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "alan_walker_mod:block/groser_tisch",
+      "x": 90
+    }
+  }
+}

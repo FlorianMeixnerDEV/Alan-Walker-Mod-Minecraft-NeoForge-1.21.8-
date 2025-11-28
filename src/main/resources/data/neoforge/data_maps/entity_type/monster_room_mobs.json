@@ -2,6 +2,12 @@
   "values": {
     "alan_walker_mod:alan_walker": {
       "weight": 100
+    },
+    "alan_walker_mod:alan_walker_zombie": {
+      "weight": 100
+    },
+    "alan_walker_mod:alan_guard": {
+      "weight": 100
     }
   }
 }

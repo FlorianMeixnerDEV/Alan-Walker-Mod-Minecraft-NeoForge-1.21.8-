@@ -9,6 +9,7 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -34,6 +35,8 @@ public class AlanWalkerModModTabs {
 				tabData.accept(AlanWalkerModModItems.TIME.get());
 				tabData.accept(AlanWalkerModModItems.WELCOME_TO_WALKERWORLD.get());
 				tabData.accept(AlanWalkerModModItems.RISE_OF_THE_DRONES.get());
+				tabData.accept(AlanWalkerModModItems.SAILING.get());
+				tabData.accept(AlanWalkerModModItems.LONELY_CLUB.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPAWNEIER = REGISTRY.register("spawneier",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alan_walker_mod.spawneier")).icon(() -> new ItemStack(Items.SKELETON_SPAWN_EGG)).displayItems((parameters, tabData) -> {
@@ -45,6 +48,12 @@ public class AlanWalkerModModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alan_walker_mod.waffen")).icon(() -> new ItemStack(Items.DIAMOND_SWORD)).displayItems((parameters, tabData) -> {
 				tabData.accept(AlanWalkerModModItems.KATANA.get());
 			}).withTabsBefore(SPAWNEIER.getId()).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DEKO = REGISTRY.register("deko",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alan_walker_mod.deko")).icon(() -> new ItemStack(Blocks.GOLD_BLOCK)).displayItems((parameters, tabData) -> {
+				tabData.accept(AlanWalkerModModBlocks.STUHL.get().asItem());
+				tabData.accept(AlanWalkerModModBlocks.TISCH.get().asItem());
+				tabData.accept(AlanWalkerModModBlocks.GROSER_TISCH.get().asItem());
+			}).withTabsBefore(WAFFEN.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

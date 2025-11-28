@@ -24,6 +24,7 @@ import net.florianmeixnerdev.alanwalkermod.init.AlanWalkerModModTabs;
 import net.florianmeixnerdev.alanwalkermod.init.AlanWalkerModModSounds;
 import net.florianmeixnerdev.alanwalkermod.init.AlanWalkerModModItems;
 import net.florianmeixnerdev.alanwalkermod.init.AlanWalkerModModEntities;
+import net.florianmeixnerdev.alanwalkermod.init.AlanWalkerModModBlocks;
 
 import javax.annotation.Nullable;
 
@@ -49,6 +50,7 @@ public class AlanWalkerModMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 		AlanWalkerModModSounds.REGISTRY.register(modEventBus);
+		AlanWalkerModModBlocks.REGISTRY.register(modEventBus);
 		AlanWalkerModModItems.REGISTRY.register(modEventBus);
 		AlanWalkerModModEntities.REGISTRY.register(modEventBus);
 		AlanWalkerModModTabs.REGISTRY.register(modEventBus);
