@@ -118,5 +118,101 @@
         "stream": false
       }
     ]
+  },
+  "blue": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:blue",
+        "stream": false
+      }
+    ]
+  },
+  "catchmeifyoucan": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:catchmeifyoucan",
+        "stream": false
+      }
+    ]
+  },
+  "extremes": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:exremes",
+        "stream": false
+      }
+    ]
+  },
+  "headlights": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:headlights",
+        "stream": false
+      }
+    ]
+  },
+  "helloworld": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:helloworld",
+        "stream": false
+      }
+    ]
+  },
+  "lovesick": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:lovesick",
+        "stream": false
+      }
+    ]
+  },
+  "shutup": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:shutup",
+        "stream": false
+      }
+    ]
+  },
+  "the_drum": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:the_drum",
+        "stream": false
+      }
+    ]
+  },
+  "hellothere": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:hellothere",
+        "stream": false
+      }
+    ]
+  },
+  "bye": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:byehaveagreattime",
+        "stream": false
+      }
+    ]
+  },
+  "fire": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:fire",
+        "stream": false
+      }
+    ]
+  },
+  "play": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:play",
+        "stream": false
+      }
+    ]
   }
 }

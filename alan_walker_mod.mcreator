@@ -414,32 +414,6 @@
       "path": "~/Befehle"
     },
     {
-      "name": "Katana",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "katana",
-      "metadata": {
-        "files": [
-          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/KatanaItem.java",
-          "src/main/resources/assets/alan_walker_mod/items/katana.json",
-          "src/main/resources/assets/alan_walker_mod/models/item/katana.json"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "Waffen",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waffen",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/CreativeGUI"
-    },
-    {
       "name": "Deko",
       "type": "tab",
       "compiles": true,
@@ -591,6 +565,181 @@
         ]
       },
       "path": "~/Errungenschaften"
+    },
+    {
+      "name": "Blue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/BlueItem.java",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/blue.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/blue.json",
+          "src/main/resources/assets/alan_walker_mod/items/blue.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "ChatchMeIfYouCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chatch_me_if_you_can",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/ChatchMeIfYouCanItem.java",
+          "src/main/resources/assets/alan_walker_mod/items/chatch_me_if_you_can.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/chatch_me_if_you_can.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/chatch_me_if_you_can.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "Exremes",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exremes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/ExremesItem.java",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/exremes.json",
+          "src/main/resources/assets/alan_walker_mod/items/exremes.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/exremes.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "Headlights",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "headlights",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alan_walker_mod/jukebox_song/headlights.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/headlights.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/HeadlightsItem.java",
+          "src/main/resources/assets/alan_walker_mod/items/headlights.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "HelloWorld",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hello_world",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/HelloWorldItem.java",
+          "src/main/resources/assets/alan_walker_mod/items/hello_world.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/hello_world.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/hello_world.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "Lovesick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lovesick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alan_walker_mod/jukebox_song/lovesick.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/lovesick.json",
+          "src/main/resources/assets/alan_walker_mod/items/lovesick.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/LovesickItem.java"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "ShutUp",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shut_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/ShutUpItem.java",
+          "src/main/resources/assets/alan_walker_mod/models/item/shut_up.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/shut_up.json",
+          "src/main/resources/assets/alan_walker_mod/items/shut_up.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "TheDrum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_drum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/TheDrumItem.java",
+          "src/main/resources/assets/alan_walker_mod/items/the_drum.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/the_drum.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/the_drum.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "AlansDesert",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alans_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alan_walker_mod/worldgen/placed_feature/alans_desert_tree.json",
+          "src/main/resources/data/alan_walker_mod/worldgen/configured_feature/alans_desert_tree.json",
+          "src/main/resources/data/alan_walker_mod/worldgen/biome/alans_desert.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "Fire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/fire.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/fire.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/fire.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/FireItem.java"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "Play",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/PlayItem.java",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/play.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/play.json",
+          "src/main/resources/assets/alan_walker_mod/items/play.json"
+        ]
+      },
+      "path": "~/Disc"
     }
   ],
   "variable_elements": [],
@@ -714,10 +863,116 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "blue",
+      "files": [
+        "blue"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "catchmeifyoucan",
+      "files": [
+        "catchmeifyoucan"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "extremes",
+      "files": [
+        "exremes"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "headlights",
+      "files": [
+        "headlights"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "helloworld",
+      "files": [
+        "helloworld"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "lovesick",
+      "files": [
+        "lovesick"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "shutup",
+      "files": [
+        "shutup"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "the_drum",
+      "files": [
+        "the_drum"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "hellothere",
+      "files": [
+        "hellothere"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bye",
+      "files": [
+        "byehaveagreattime"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fire",
+      "files": [
+        "fire"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "play",
+      "files": [
+        "play"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
     "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Play",
+      "~CUSTOM:Fire",
+      "~CUSTOM:TheDrum",
+      "~CUSTOM:ShutUp",
+      "~CUSTOM:Lovesick",
+      "~CUSTOM:HelloWorld",
+      "~CUSTOM:Headlights",
+      "~CUSTOM:Exremes",
+      "~CUSTOM:ChatchMeIfYouCan",
+      "~CUSTOM:Blue",
       "~CUSTOM:LonelyClub",
       "~CUSTOM:Sailing",
       "~CUSTOM:RiseOfTheDrones",
@@ -735,15 +990,44 @@
     "ENTITIES:minecraft:undead": [
       "~CUSTOM:AlanWalkerZombie"
     ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:Katana"
-    ],
-    "ITEMS:alan_walker_mod:katana_repair_items": [
-      "~Items.IRON_INGOT",
-      "~Items.STICK"
-    ],
     "ENTITIES:minecraft:illager": [
       "~CUSTOM:AlanGuard"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:AlansDesert"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:AlansDesert"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:AlansDesert"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:AlansDesert"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:AlansDesert"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:AlansDesert"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:AlansDesert"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:AlansDesert"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:AlansDesert"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:AlansDesert"
+    ],
+    "BIOMES:minecraft:has_structure/village_desert": [
+      "~CUSTOM:AlansDesert"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:AlansDesert"
     ]
   },
   "tab_element_order": {},
@@ -790,8 +1074,6 @@
       "item.alan_walker_mod.alan_walker_spawn_egg": "Alan Walker Spawn Egg",
       "entity.alan_walker_mod.alan_walker_zombie": "Bad Alan",
       "item.alan_walker_mod.alan_walker_zombie_spawn_egg": "Bad Alan Spawn Egg",
-      "item.alan_walker_mod.katana": "Katana",
-      "item_group.alan_walker_mod.waffen": "Waffen",
       "item_group.alan_walker_mod.deko": "Deko",
       "item.alan_walker_mod.stuhl": "Stuhl",
       "item.alan_walker_mod.tisch": "Tisch",
@@ -807,11 +1089,47 @@
       "advancements.disc_errungenschaft.title": "Where are you now? Atlantis",
       "advancements.disc_errungenschaft.descr": "Get the Faded Disc",
       "advancements.all_music_disc.title": "You a Big Alan Fan",
-      "advancements.all_music_disc.descr": "Receive all discs in the inventory."
+      "advancements.all_music_disc.descr": "Receive all discs in the inventory.",
+      "subtitles.extreme": "",
+      "subtitles.blue": "",
+      "subtitles.catchmeifyoucan": "",
+      "subtitles.extremes": "",
+      "subtitles.headlights": "",
+      "subtitles.helloworld": "",
+      "subtitles.lovesick": "",
+      "subtitles.shutup": "",
+      "subtitles.the_drum": "",
+      "item.alan_walker_mod.blue.desc": "Alan Walker \u0026 Ina Wroldsen - Blue",
+      "item.alan_walker_mod.blue": "Schalllplatte",
+      "item.alan_walker_mod.chatch_me_if_you_can": "Schallplatte",
+      "item.alan_walker_mod.chatch_me_if_you_can.desc": "Alan Walker \u0026 Sorana - Chatch Me If You Can",
+      "item.alan_walker_mod.exremes": "Schallplatte",
+      "item.alan_walker_mod.exremes.desc": "Alan Walker \u0026 Trevor Daniel - Exremes",
+      "item.alan_walker_mod.headlights": "Schallplatte",
+      "item.alan_walker_mod.headlights.desc": "Alok \u0026 Alan Walker - Headlights (feat. KIDDO)",
+      "item.alan_walker_mod.hello_world.desc": "Alan Walker \u0026 Torine - Hello World",
+      "item.alan_walker_mod.hello_world": "Schallplatte",
+      "item.alan_walker_mod.lovesick": "Schallplatte",
+      "item.alan_walker_mod.lovesick.desc": "Alan Walker - Lovesick",
+      "item.alan_walker_mod.shut_up.desc": "Alan Walker \u0026 UPSAHL - Shut Up",
+      "item.alan_walker_mod.shut_up": "Schallplatte",
+      "item.alan_walker_mod.the_drum.desc": "Alan Walker - The Drum",
+      "item.alan_walker_mod.the_drum": "Schallplatte",
+      "subtitles.hellothere": "",
+      "subtitles.bye": "",
+      "biome.alan_walker_mod.alans_desert": "Alans Desert",
+      "subtitles.fire": "",
+      "subtitles.play": "",
+      "item.alan_walker_mod.fire": "Schalllplatte",
+      "item.alan_walker_mod.fire.desc": "Alan Walker - Fire (feat.YUQI, JVKE)",
+      "item.alan_walker_mod.play.desc": "Alan Walker. K-391, Tungevaag, Mangoo - Play",
+      "item.alan_walker_mod.play": "Schallplatte"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModBiomes.java",
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModBlocks.java",
       "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModItems.java",
@@ -819,10 +1137,12 @@
       "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModEntityRenderers.java",
       "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModSounds.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/assets/alan_walker_mod/sounds.json",
       "src/main/java/net/florianmeixnerdev/alanwalkermod/AlanWalkerModMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModTabs.java"
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModTabs.java",
+      "src/main/resources/alan_walker_mod.mixins.json"
     ]
   },
   "foldersRoot": {
@@ -867,19 +1187,23 @@
       {
         "name": "Errungenschaften",
         "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "alan_walker_mod",
     "modName": "Alan Walker Mod",
-    "version": "1.0Alpha",
-    "description": "Alan Walker Music-Mod",
+    "version": "1.0",
+    "description": "This mod brings the unforgettable sounds of Alan Walker directly into your Minecraft world! Discover new, collectible music tracks and face three unique new mobs that provide a musical challenge.",
     "author": "FlorianMeixnerDEV",
-    "websiteURL": "https://florianmeixnerdev.4lima.de",
-    "license": "All Rights Reserved",
+    "websiteURL": "https://florianmeixnerdev.github.io",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
     "serverSideOnly": false,
-    "modPicture": "awlogo",
+    "modPicture": "1",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

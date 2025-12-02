@@ -1,0 +1,110 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.9,
+  "downfall": 0.7,
+  "effects": {
+    "additions_sound": {
+      "sound": "alan_walker_mod:hellothere",
+      "tick_chance": 0.0111
+    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "alan_walker_mod:faded",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "particle": {
+      "options": {
+        "type": "bubble_pop"
+      },
+      "probability": 0.005
+    },
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
+    "sky_color": -52,
+    "fog_color": -1,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "alan_walker_mod:alan_walker_zombie",
+        "weight": 30,
+        "minCount": 4,
+        "maxCount": 8
+      },
+      {
+        "type": "alan_walker_mod:alan_guard",
+        "weight": 25,
+        "minCount": 4,
+        "maxCount": 8
+      }
+    ],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "alan_walker_mod:alan_walker",
+        "weight": 35,
+        "minCount": 4,
+        "maxCount": 10
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [
+      "alan_walker_mod:alans_desert_tree"
+    ],
+    []
+  ]
+}

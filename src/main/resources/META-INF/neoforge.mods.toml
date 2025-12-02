@@ -1,20 +1,22 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="All Rights Reserved"
+license="Creative Commons Attribution-NonCommercial 3.0"
 
 [[mods]]
 modId="alan_walker_mod"
 version="1.0"
 displayName="Alan Walker Mod"
-displayURL="https://florianmeixnerdev.4lima.de"
+displayURL="https://florianmeixnerdev.github.io"
 logoFile="logo.png"
 credits="Creator: Florian Meixner "
 authors="FlorianMeixnerDEV"
-description="Alan Walker Music-Mod"
+description="This mod brings the unforgettable sounds of Alan Walker directly into your Minecraft world! Discover new, collectible music tracks and face three unique new mobs that provide a musical challenge."
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
+[[mixins]]
+    config = "alan_walker_mod.mixins.json"
 
 # Start of user code block custom mixins
 # End of user code block custom mixins

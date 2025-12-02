@@ -1,0 +1,138 @@
+{
+  "_fv": 79,
+  "_type": "biome",
+  "definition": {
+    "name": "Alans Desert",
+    "groundBlock": {
+      "value": "Blocks.COBBLESTONE"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "airColor": {
+      "value": -52,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": "CUSTOM:hellothere"
+    },
+    "music": {
+      "value": "CUSTOM:faded"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 5998,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "BUBBLE_POP"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.7,
+    "temperature": 0.9,
+    "spawnBiome": true,
+    "spawnInCaves": true,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 15,
+    "vanillaTreeType": "Big trees",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "Fossils",
+      "MonsterRooms"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "desert",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": true,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": true,
+    "spawnEndCity": true,
+    "spawnRuinedPortal": "STANDARD",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:AlanWalker"
+        },
+        "minGroup": 4,
+        "maxGroup": 10,
+        "weight": 35,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:AlanWalkerZombie"
+        },
+        "minGroup": 4,
+        "maxGroup": 8,
+        "weight": 30,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:AlanGuard"
+        },
+        "minGroup": 4,
+        "maxGroup": 8,
+        "weight": 25,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

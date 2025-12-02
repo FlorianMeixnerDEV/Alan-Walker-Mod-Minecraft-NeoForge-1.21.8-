@@ -5,21 +5,16 @@ package net.florianmeixnerdev.alanwalkermod.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.florianmeixnerdev.alanwalkermod.AlanWalkerModMod;
 
-@EventBusSubscriber
 public class AlanWalkerModModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AlanWalkerModMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCHALLPLATTEN = REGISTRY.register("schallplatten",
@@ -37,6 +32,16 @@ public class AlanWalkerModModTabs {
 				tabData.accept(AlanWalkerModModItems.RISE_OF_THE_DRONES.get());
 				tabData.accept(AlanWalkerModModItems.SAILING.get());
 				tabData.accept(AlanWalkerModModItems.LONELY_CLUB.get());
+				tabData.accept(AlanWalkerModModItems.BLUE.get());
+				tabData.accept(AlanWalkerModModItems.CHATCH_ME_IF_YOU_CAN.get());
+				tabData.accept(AlanWalkerModModItems.EXREMES.get());
+				tabData.accept(AlanWalkerModModItems.HEADLIGHTS.get());
+				tabData.accept(AlanWalkerModModItems.HELLO_WORLD.get());
+				tabData.accept(AlanWalkerModModItems.LOVESICK.get());
+				tabData.accept(AlanWalkerModModItems.SHUT_UP.get());
+				tabData.accept(AlanWalkerModModItems.THE_DRUM.get());
+				tabData.accept(AlanWalkerModModItems.FIRE.get());
+				tabData.accept(AlanWalkerModModItems.PLAY.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPAWNEIER = REGISTRY.register("spawneier",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alan_walker_mod.spawneier")).icon(() -> new ItemStack(Items.SKELETON_SPAWN_EGG)).displayItems((parameters, tabData) -> {
@@ -44,21 +49,10 @@ public class AlanWalkerModModTabs {
 				tabData.accept(AlanWalkerModModItems.ALAN_WALKER_ZOMBIE_SPAWN_EGG.get());
 				tabData.accept(AlanWalkerModModItems.ALAN_GUARD_SPAWN_EGG.get());
 			}).withSearchBar().withTabsBefore(SCHALLPLATTEN.getId()).build());
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> WAFFEN = REGISTRY.register("waffen",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alan_walker_mod.waffen")).icon(() -> new ItemStack(Items.DIAMOND_SWORD)).displayItems((parameters, tabData) -> {
-				tabData.accept(AlanWalkerModModItems.KATANA.get());
-			}).withTabsBefore(SPAWNEIER.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DEKO = REGISTRY.register("deko",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alan_walker_mod.deko")).icon(() -> new ItemStack(Blocks.GOLD_BLOCK)).displayItems((parameters, tabData) -> {
 				tabData.accept(AlanWalkerModModBlocks.STUHL.get().asItem());
 				tabData.accept(AlanWalkerModModBlocks.TISCH.get().asItem());
 				tabData.accept(AlanWalkerModModBlocks.GROSER_TISCH.get().asItem());
-			}).withTabsBefore(WAFFEN.getId()).build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(AlanWalkerModModItems.KATANA.get());
-		}
-	}
+			}).withTabsBefore(SPAWNEIER.getId()).build());
 }
