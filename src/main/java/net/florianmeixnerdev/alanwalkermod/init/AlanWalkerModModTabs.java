@@ -42,17 +42,21 @@ public class AlanWalkerModModTabs {
 				tabData.accept(AlanWalkerModModItems.THE_DRUM.get());
 				tabData.accept(AlanWalkerModModItems.FIRE.get());
 				tabData.accept(AlanWalkerModModItems.PLAY.get());
+				tabData.accept(AlanWalkerModModItems.ALONE.get());
+				tabData.accept(AlanWalkerModModItems.SING_ME_TO_SLEEP.get());
+				tabData.accept(AlanWalkerModModItems.HYM_FOR_THE_WEEKEND.get());
+				tabData.accept(AlanWalkerModModItems.RUNNING_OUT_OF_ROSES.get());
+				tabData.accept(AlanWalkerModModItems.JUMPSTART.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPAWNEIER = REGISTRY.register("spawneier",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alan_walker_mod.spawneier")).icon(() -> new ItemStack(Items.SKELETON_SPAWN_EGG)).displayItems((parameters, tabData) -> {
 				tabData.accept(AlanWalkerModModItems.ALAN_WALKER_SPAWN_EGG.get());
-				tabData.accept(AlanWalkerModModItems.ALAN_WALKER_ZOMBIE_SPAWN_EGG.get());
 				tabData.accept(AlanWalkerModModItems.ALAN_GUARD_SPAWN_EGG.get());
+				tabData.accept(AlanWalkerModModItems.BAD_ALAN_SPAWN_EGG.get());
 			}).withSearchBar().withTabsBefore(SCHALLPLATTEN.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DEKO = REGISTRY.register("deko",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alan_walker_mod.deko")).icon(() -> new ItemStack(Blocks.GOLD_BLOCK)).displayItems((parameters, tabData) -> {
 				tabData.accept(AlanWalkerModModBlocks.STUHL.get().asItem());
 				tabData.accept(AlanWalkerModModBlocks.TISCH.get().asItem());
-				tabData.accept(AlanWalkerModModBlocks.GROSER_TISCH.get().asItem());
 			}).withTabsBefore(SPAWNEIER.getId()).build());
 }

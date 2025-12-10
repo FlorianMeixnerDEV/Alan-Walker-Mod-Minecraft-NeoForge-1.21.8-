@@ -17,7 +17,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
-import net.florianmeixnerdev.alanwalkermod.entity.AlanWalkerZombieEntity;
+import net.florianmeixnerdev.alanwalkermod.entity.BadAlanEntity;
 import net.florianmeixnerdev.alanwalkermod.entity.AlanWalkerEntity;
 import net.florianmeixnerdev.alanwalkermod.entity.AlanGuardEntity;
 import net.florianmeixnerdev.alanwalkermod.AlanWalkerModMod;
@@ -29,12 +29,12 @@ public class AlanWalkerModModEntities {
 			EntityType.Builder.<AlanWalkerEntity>of(AlanWalkerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(15).setUpdateInterval(3)
 
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
-	public static final DeferredHolder<EntityType<?>, EntityType<AlanWalkerZombieEntity>> ALAN_WALKER_ZOMBIE = register("alan_walker_zombie",
-			EntityType.Builder.<AlanWalkerZombieEntity>of(AlanWalkerZombieEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(32).setUpdateInterval(3)
-
-					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<AlanGuardEntity>> ALAN_GUARD = register("alan_guard",
 			EntityType.Builder.<AlanGuardEntity>of(AlanGuardEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<BadAlanEntity>> BAD_ALAN = register("bad_alan",
+			EntityType.Builder.<BadAlanEntity>of(BadAlanEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
 
@@ -47,14 +47,14 @@ public class AlanWalkerModModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		AlanWalkerEntity.init(event);
-		AlanWalkerZombieEntity.init(event);
 		AlanGuardEntity.init(event);
+		BadAlanEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(ALAN_WALKER.get(), AlanWalkerEntity.createAttributes().build());
-		event.put(ALAN_WALKER_ZOMBIE.get(), AlanWalkerZombieEntity.createAttributes().build());
 		event.put(ALAN_GUARD.get(), AlanGuardEntity.createAttributes().build());
+		event.put(BAD_ALAN.get(), BadAlanEntity.createAttributes().build());
 	}
 }

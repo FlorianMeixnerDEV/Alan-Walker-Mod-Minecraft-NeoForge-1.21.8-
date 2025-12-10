@@ -214,5 +214,45 @@
         "stream": false
       }
     ]
+  },
+  "alone": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:alone",
+        "stream": false
+      }
+    ]
+  },
+  "singmetosleep": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:singmetosleep",
+        "stream": false
+      }
+    ]
+  },
+  "hymfortheweekend": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:alan_walker_vs_coldplay_-_hymn_for_the_weekend_remix_tuberipper.cc",
+        "stream": false
+      }
+    ]
+  },
+  "runningoutofroses": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:alan_walker_x_jamie_miller_-_running_out_of_roses_official_lyric_video_tuberipper.net",
+        "stream": false
+      }
+    ]
+  },
+  "jumpstart": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:jumpstart",
+        "stream": false
+      }
+    ]
   }
 }

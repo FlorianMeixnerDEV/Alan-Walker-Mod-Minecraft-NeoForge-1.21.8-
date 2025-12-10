@@ -1,0 +1,69 @@
+{
+  "_fv": 79,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:SchallplattenHandel"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:AvalonDisc"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 5,
+            "xp": 500,
+            "priceMultiplier": 0.049999999999999996
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:BelieversDisc"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 4,
+            "xp": 80,
+            "priceMultiplier": 0.049999999999999996
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Sailing"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 4,
+            "xp": 80,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

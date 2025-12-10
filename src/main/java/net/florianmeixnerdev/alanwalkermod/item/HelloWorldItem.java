@@ -10,6 +10,6 @@ import net.florianmeixnerdev.alanwalkermod.AlanWalkerModMod;
 
 public class HelloWorldItem extends Item {
 	public HelloWorldItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.EPIC).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(AlanWalkerModMod.MODID, "hello_world"))));
+		super(properties.rarity(Rarity.EPIC).stacksTo(1).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(AlanWalkerModMod.MODID, "hello_world"))));
 	}
 }

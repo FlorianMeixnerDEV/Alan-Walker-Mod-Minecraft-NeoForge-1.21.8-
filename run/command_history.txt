@@ -1,0 +1,50 @@
+/give Dev minecraft:diamond 64
+/clear
+/summon alan_walker_mod:alan_guard
+/summon minecraft:tnt
+/kill
+/clear
+/summon minecraft:villager
+/give dev minecraft:emerald 128
+/summon minecraft:villager
+/kill @e[type=villager]
+/summon minecraft:villager
+/advancement revoke @a
+/advancement revoke @a everything
+/info
+/clear
+/give Dev minecraft:emerald 128
+/clear
+/summon alan_walker_mod:alan_guard
+/gamemode survival
+/give Dev minecraft:lava_bucket 15
+/summon alan_walker_mod:bad_alan
+/clear
+/give Dev alan_walker_mod:bad_alan_spawn_egg 20
+/gamemode creative
+/gamemode survival
+/give Dev alan_walker_mod:bad_alan_spawn_egg 128
+/give Dev minecraft:acacia_boat
+/give Dev minecraft:water_bucket
+/tp Dev ~ ~20 ~
+/tp Dev ~ ~100 ~
+/give Dev minecraft:water_bucket
+/tp Dev ~ ~100 ~
+/give Dev minecraft:water_bucket
+/tp Dev ~ ~100 ~
+/tp Dev ~ ~20 ~
+/tp Dev ~ ~100 ~
+/give Dev minecraft:water_bucket
+/tp Dev ~ ~100 ~
+/give Dev minecraft:water_bucket
+/tp Dev ~ ~200 ~
+/give Dev minecraft:water_bucket
+/tp Dev ~ ~100 ~
+/give Dev minecraft:water_bucket 10
+/gamemode creative
+/clear
+/give Dev minecraft:water_bucket 1
+/summon minecraft:tnt
+/fill ~ ~ ~ ~1 ~ 1 tnt
+/summon minecraft:lightning_bolt
+/give Dev minecraft:crafting_table

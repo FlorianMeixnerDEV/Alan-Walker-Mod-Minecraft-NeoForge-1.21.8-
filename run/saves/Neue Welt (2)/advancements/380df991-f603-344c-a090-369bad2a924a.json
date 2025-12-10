@@ -1,0 +1,44 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-11-24 15:26:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-11-24 15:26:11 +0100"
+    },
+    "done": false
+  },
+  "alan_walker_mod:disc_errungenschaft": {
+    "criteria": {
+      "disc_errungenschaft_0": "2025-11-24 15:27:59 +0100"
+    },
+    "done": true
+  },
+  "alan_walker_mod:all_music_disc": {
+    "criteria": {
+      "all_music_disc_7": "2025-11-24 15:28:12 +0100",
+      "all_music_disc_10": "2025-11-24 15:27:00 +0100",
+      "all_music_disc_6": "2025-11-24 15:28:10 +0100",
+      "all_music_disc_11": "2025-11-24 15:26:59 +0100",
+      "all_music_disc_9": "2025-11-24 15:27:02 +0100",
+      "all_music_disc_8": "2025-11-24 15:26:13 +0100",
+      "all_music_disc_3": "2025-11-24 15:27:58 +0100",
+      "all_music_disc_2": "2025-11-24 15:27:56 +0100",
+      "all_music_disc_5": "2025-11-24 15:28:01 +0100",
+      "all_music_disc_4": "2025-11-24 15:27:59 +0100",
+      "all_music_disc_1": "2025-11-24 15:26:39 +0100",
+      "all_music_disc_0": "2025-11-24 15:26:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-11-24 15:26:13 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

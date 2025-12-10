@@ -9,6 +9,6 @@ import net.florianmeixnerdev.alanwalkermod.AlanWalkerModMod;
 
 public class ChatchMeIfYouCanItem extends Item {
 	public ChatchMeIfYouCanItem(Item.Properties properties) {
-		super(properties.jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(AlanWalkerModMod.MODID, "chatch_me_if_you_can"))));
+		super(properties.stacksTo(1).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(AlanWalkerModMod.MODID, "chatch_me_if_you_can"))));
 	}
 }

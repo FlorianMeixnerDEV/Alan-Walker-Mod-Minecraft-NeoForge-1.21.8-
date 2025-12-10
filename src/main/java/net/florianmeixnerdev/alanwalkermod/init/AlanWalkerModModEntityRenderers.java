@@ -8,7 +8,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
-import net.florianmeixnerdev.alanwalkermod.client.renderer.AlanWalkerZombieRenderer;
+import net.florianmeixnerdev.alanwalkermod.client.renderer.BadAlanRenderer;
 import net.florianmeixnerdev.alanwalkermod.client.renderer.AlanWalkerRenderer;
 import net.florianmeixnerdev.alanwalkermod.client.renderer.AlanGuardRenderer;
 
@@ -17,7 +17,7 @@ public class AlanWalkerModModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(AlanWalkerModModEntities.ALAN_WALKER.get(), AlanWalkerRenderer::new);
-		event.registerEntityRenderer(AlanWalkerModModEntities.ALAN_WALKER_ZOMBIE.get(), AlanWalkerZombieRenderer::new);
 		event.registerEntityRenderer(AlanWalkerModModEntities.ALAN_GUARD.get(), AlanGuardRenderer::new);
+		event.registerEntityRenderer(AlanWalkerModModEntities.BAD_ALAN.get(), BadAlanRenderer::new);
 	}
 }

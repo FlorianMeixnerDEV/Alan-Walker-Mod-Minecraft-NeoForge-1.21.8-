@@ -10,6 +10,6 @@ import net.florianmeixnerdev.alanwalkermod.AlanWalkerModMod;
 
 public class ShutUpItem extends Item {
 	public ShutUpItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.EPIC).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(AlanWalkerModMod.MODID, "shut_up"))));
+		super(properties.rarity(Rarity.EPIC).stacksTo(1).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(AlanWalkerModMod.MODID, "shut_up"))));
 	}
 }

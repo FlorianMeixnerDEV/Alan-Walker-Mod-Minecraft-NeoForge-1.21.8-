@@ -216,23 +216,6 @@
       "path": "~/Mobs"
     },
     {
-      "name": "AlanWalkerZombie",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "alan_walker_zombie",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/alan_walker_mod/items/alan_walker_zombie_spawn_egg.json",
-          "src/main/java/net/florianmeixnerdev/alanwalkermod/entity/AlanWalkerZombieEntity.java",
-          "src/main/java/net/florianmeixnerdev/alanwalkermod/client/renderer/AlanWalkerZombieRenderer.java",
-          "src/main/resources/assets/alan_walker_mod/models/item/alan_walker_zombie_spawn_egg.json",
-          "src/main/resources/data/alan_walker_mod/neoforge/biome_modifier/alan_walker_zombie_biome_modifier.json"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
       "name": "InvisibleItemframe",
       "type": "procedure",
       "compiles": true,
@@ -401,19 +384,6 @@
       "path": "~/Prozeduren"
     },
     {
-      "name": "AdminSchwert",
-      "type": "command",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "admin_schwert",
-      "metadata": {
-        "files": [
-          "src/main/java/net/florianmeixnerdev/alanwalkermod/command/AdminSchwertCommand.java"
-        ]
-      },
-      "path": "~/Befehle"
-    },
-    {
       "name": "Deko",
       "type": "tab",
       "compiles": true,
@@ -456,24 +426,6 @@
           "src/main/resources/assets/alan_walker_mod/models/block/tisch.json",
           "src/main/resources/data/alan_walker_mod/loot_table/blocks/tisch.json",
           "src/main/resources/assets/alan_walker_mod/blockstates/tisch.json"
-        ]
-      },
-      "path": "~/Deko"
-    },
-    {
-      "name": "GroserTisch",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "groser_tisch",
-      "metadata": {
-        "files": [
-          "src/main/java/net/florianmeixnerdev/alanwalkermod/block/GroserTischBlock.java",
-          "src/main/resources/data/alan_walker_mod/loot_table/blocks/groser_tisch.json",
-          "src/main/resources/assets/alan_walker_mod/blockstates/groser_tisch.json",
-          "src/main/resources/assets/alan_walker_mod/items/groser_tisch.json",
-          "src/main/resources/assets/alan_walker_mod/models/block/groser_tisch.json",
-          "src/main/resources/assets/alan_walker_mod/models/item/groser_tisch.json"
         ]
       },
       "path": "~/Deko"
@@ -539,32 +491,6 @@
         ]
       },
       "path": "~/Beutetabellen"
-    },
-    {
-      "name": "DiscErrungenschaft",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "disc_errungenschaft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/alan_walker_mod/advancement/disc_errungenschaft.json"
-        ]
-      },
-      "path": "~/Errungenschaften"
-    },
-    {
-      "name": "AllMusicDisc",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "all_music_disc",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/alan_walker_mod/advancement/all_music_disc.json"
-        ]
-      },
-      "path": "~/Errungenschaften"
     },
     {
       "name": "Blue",
@@ -695,21 +621,6 @@
       "path": "~/Disc"
     },
     {
-      "name": "AlansDesert",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "alans_desert",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/alan_walker_mod/worldgen/placed_feature/alans_desert_tree.json",
-          "src/main/resources/data/alan_walker_mod/worldgen/configured_feature/alans_desert_tree.json",
-          "src/main/resources/data/alan_walker_mod/worldgen/biome/alans_desert.json"
-        ]
-      },
-      "path": "~/Biomes"
-    },
-    {
       "name": "Fire",
       "type": "item",
       "compiles": true,
@@ -740,6 +651,169 @@
         ]
       },
       "path": "~/Disc"
+    },
+    {
+      "name": "SchallplattenHandel",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schallplatten_handel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Dorfbewohner"
+    },
+    {
+      "name": "SchallplattenDeal",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schallplatten_deal",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/VillagerHandel"
+    },
+    {
+      "name": "Alone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alan_walker_mod/jukebox_song/alone.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/alone.json",
+          "src/main/resources/assets/alan_walker_mod/items/alone.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/AloneItem.java"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "SingMeToSleep",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sing_me_to_sleep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alan_walker_mod/jukebox_song/sing_me_to_sleep.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/SingMeToSleepItem.java",
+          "src/main/resources/assets/alan_walker_mod/models/item/sing_me_to_sleep.json",
+          "src/main/resources/assets/alan_walker_mod/items/sing_me_to_sleep.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "HymForTheWeekend",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hym_for_the_weekend",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/models/item/hym_for_the_weekend.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/hym_for_the_weekend.json",
+          "src/main/resources/assets/alan_walker_mod/items/hym_for_the_weekend.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/HymForTheWeekendItem.java"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "RunningOutOfRoses",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "running_out_of_roses",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/running_out_of_roses.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/running_out_of_roses.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/running_out_of_roses.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/RunningOutOfRosesItem.java"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "Jumpstart",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpstart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/models/item/jumpstart.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/jumpstart.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/JumpstartItem.java",
+          "src/main/resources/assets/alan_walker_mod/items/jumpstart.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "InfoProzedur",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "info_prozedur",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/procedures/InfoProzedurProcedure.java"
+        ]
+      },
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "Info",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "info",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/command/InfoCommand.java"
+        ]
+      },
+      "path": "~/Befehle"
+    },
+    {
+      "name": "BadAlan",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_alan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/bad_alan_spawn_egg.json",
+          "src/main/resources/data/alan_walker_mod/neoforge/biome_modifier/bad_alan_biome_modifier.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/bad_alan_spawn_egg.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/client/renderer/BadAlanRenderer.java",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/entity/BadAlanEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -959,10 +1033,55 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "alone",
+      "files": [
+        "alone"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "singmetosleep",
+      "files": [
+        "singmetosleep"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "hymfortheweekend",
+      "files": [
+        "alan_walker_vs_coldplay_-_hymn_for_the_weekend_remix_tuberipper.cc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "runningoutofroses",
+      "files": [
+        "alan_walker_x_jamie_miller_-_running_out_of_roses_official_lyric_video_tuberipper.net"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "jumpstart",
+      "files": [
+        "jumpstart"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
     "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Jumpstart",
+      "~CUSTOM:RunningOutOfRoses",
+      "~CUSTOM:HymForTheWeekend",
+      "~CUSTOM:SingMeToSleep",
+      "~CUSTOM:Alone",
       "~CUSTOM:Play",
       "~CUSTOM:Fire",
       "~CUSTOM:TheDrum",
@@ -988,46 +1107,10 @@
       "~CUSTOM:AvalonDisc"
     ],
     "ENTITIES:minecraft:undead": [
-      "~CUSTOM:AlanWalkerZombie"
+      "~CUSTOM:BadAlan"
     ],
     "ENTITIES:minecraft:illager": [
       "~CUSTOM:AlanGuard"
-    ],
-    "BIOMES:minecraft:has_structure/mineshaft": [
-      "~CUSTOM:AlansDesert"
-    ],
-    "BIOMES:minecraft:has_structure/stronghold": [
-      "~CUSTOM:AlansDesert"
-    ],
-    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
-      "~CUSTOM:AlansDesert"
-    ],
-    "BIOMES:minecraft:has_structure/pillager_outpost": [
-      "~CUSTOM:AlansDesert"
-    ],
-    "BIOMES:minecraft:has_structure/woodland_mansion": [
-      "~CUSTOM:AlansDesert"
-    ],
-    "BIOMES:minecraft:has_structure/buried_treasure": [
-      "~CUSTOM:AlansDesert"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:AlansDesert"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:AlansDesert"
-    ],
-    "BIOMES:minecraft:has_structure/bastion_remnant": [
-      "~CUSTOM:AlansDesert"
-    ],
-    "BIOMES:minecraft:has_structure/end_city": [
-      "~CUSTOM:AlansDesert"
-    ],
-    "BIOMES:minecraft:has_structure/village_desert": [
-      "~CUSTOM:AlansDesert"
-    ],
-    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
-      "~CUSTOM:AlansDesert"
     ]
   },
   "tab_element_order": {},
@@ -1072,12 +1155,9 @@
       "subtitles.hello": "",
       "entity.alan_walker_mod.alan_walker": "Alan Walker",
       "item.alan_walker_mod.alan_walker_spawn_egg": "Alan Walker Spawn Egg",
-      "entity.alan_walker_mod.alan_walker_zombie": "Bad Alan",
-      "item.alan_walker_mod.alan_walker_zombie_spawn_egg": "Bad Alan Spawn Egg",
       "item_group.alan_walker_mod.deko": "Deko",
       "item.alan_walker_mod.stuhl": "Stuhl",
       "item.alan_walker_mod.tisch": "Tisch",
-      "item.alan_walker_mod.groser_tisch": "Gaming Tisch",
       "subtitles.lonelyclub": "",
       "subtitles.sailing": "",
       "item.alan_walker_mod.sailing.desc": "Alan Walker x Old School RuneScape - Sailing",
@@ -1086,10 +1166,6 @@
       "item.alan_walker_mod.lonely_club": "Schallpllatte",
       "item.alan_walker_mod.alan_guard_spawn_egg": "Guard Spawn Egg",
       "entity.alan_walker_mod.alan_guard": "Guard",
-      "advancements.disc_errungenschaft.title": "Where are you now? Atlantis",
-      "advancements.disc_errungenschaft.descr": "Get the Faded Disc",
-      "advancements.all_music_disc.title": "You a Big Alan Fan",
-      "advancements.all_music_disc.descr": "Receive all discs in the inventory.",
       "subtitles.extreme": "",
       "subtitles.blue": "",
       "subtitles.catchmeifyoucan": "",
@@ -1117,19 +1193,37 @@
       "item.alan_walker_mod.the_drum": "Schallplatte",
       "subtitles.hellothere": "",
       "subtitles.bye": "",
-      "biome.alan_walker_mod.alans_desert": "Alans Desert",
       "subtitles.fire": "",
       "subtitles.play": "",
       "item.alan_walker_mod.fire": "Schalllplatte",
       "item.alan_walker_mod.fire.desc": "Alan Walker - Fire (feat.YUQI, JVKE)",
       "item.alan_walker_mod.play.desc": "Alan Walker. K-391, Tungevaag, Mangoo - Play",
-      "item.alan_walker_mod.play": "Schallplatte"
+      "item.alan_walker_mod.play": "Schallplatte",
+      "entity.villager.alan_walker_mod.schallplatten_handel": "Platten-Dealer",
+      "item.alan_walker_mod.alone": "Schallplatte",
+      "item.alan_walker_mod.sing_me_to_sleep": "Schallplatte",
+      "subtitles.alone": "",
+      "subtitles.singmetosleep": "",
+      "item.alan_walker_mod.alone.desc": "Alan Walker - Alone",
+      "item.alan_walker_mod.sing_me_to_sleep.desc": "Alan Walker - Sing Me To Sleep",
+      "subtitles.hymfortheweekend": "",
+      "subtitles.runningoutofroses": "",
+      "subtitles.jumpstart": "",
+      "item.alan_walker_mod.hym_for_the_weekend": "Schallplatte",
+      "item.alan_walker_mod.running_out_of_roses": "Schallplatte",
+      "item.alan_walker_mod.jumpstart": "Schallplatte",
+      "item.alan_walker_mod.hym_for_the_weekend.desc": "Alan Walker vs. Coldplay - Hymn For the Weekend [Remix]",
+      "item.alan_walker_mod.running_out_of_roses.desc": "Alan Walker x Jamie Miller - Running Out Of Roses",
+      "item.alan_walker_mod.jumpstart.desc": "Alan Walker - Jumpstart",
+      "entity.alan_walker_mod.bad_alan": "Bad Alan",
+      "item.alan_walker_mod.bad_alan_spawn_egg": "Bad Alan Spawn Egg"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModBiomes.java",
-      "src/main/java/net/florianmeixnerdev/alanwalkermod/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModTrades.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModBlocks.java",
       "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModItems.java",
@@ -1137,12 +1231,10 @@
       "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModEntityRenderers.java",
       "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModSounds.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/assets/alan_walker_mod/sounds.json",
       "src/main/java/net/florianmeixnerdev/alanwalkermod/AlanWalkerModMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModTabs.java",
-      "src/main/resources/alan_walker_mod.mixins.json"
+      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModTabs.java"
     ]
   },
   "foldersRoot": {
@@ -1185,11 +1277,7 @@
         "children": []
       },
       {
-        "name": "Errungenschaften",
-        "children": []
-      },
-      {
-        "name": "Biomes",
+        "name": "VillagerHandel",
         "children": []
       }
     ]
@@ -1197,7 +1285,7 @@
   "workspaceSettings": {
     "modid": "alan_walker_mod",
     "modName": "Alan Walker Mod",
-    "version": "1.0",
+    "version": "1.3",
     "description": "This mod brings the unforgettable sounds of Alan Walker directly into your Minecraft world! Discover new, collectible music tracks and face three unique new mobs that provide a musical challenge.",
     "author": "FlorianMeixnerDEV",
     "websiteURL": "https://florianmeixnerdev.github.io",

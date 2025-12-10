@@ -7,10 +7,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.monster.piglin.PiglinBrute;
-import net.minecraft.world.entity.monster.piglin.Piglin;
-import net.minecraft.world.entity.monster.hoglin.Hoglin;
-import net.minecraft.world.entity.monster.*;
+import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
@@ -47,25 +44,17 @@ public class AlanGuardEntity extends PathfinderMob {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Monster.class, true, false));
-		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, AlanWalkerZombieEntity.class, true, false));
-		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Blaze.class, true, false));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Ghast.class, true, false));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Hoglin.class, true, false));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, MagmaCube.class, true, false));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, PiglinBrute.class, true, false));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Piglin.class, true, false));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, WitherSkeleton.class, true, false));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, ZombifiedPiglin.class, true, false));
-		this.goalSelector.addGoal(11, new MeleeAttackGoal(this, 1.2, false) {
+		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, BadAlanEntity.class, true, false));
+		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected boolean canPerformAttack(LivingEntity entity) {
 				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < 4 && this.mob.getSensing().hasLineOfSight(entity);
 			}
 		});
-		this.goalSelector.addGoal(12, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(13, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(14, new FloatGoal(this));
-		this.goalSelector.addGoal(15, new LeapAtTargetGoal(this, (float) 0.5));
+		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(6, new FloatGoal(this));
+		this.goalSelector.addGoal(7, new LeapAtTargetGoal(this, (float) 0.5));
 	}
 
 	@Override

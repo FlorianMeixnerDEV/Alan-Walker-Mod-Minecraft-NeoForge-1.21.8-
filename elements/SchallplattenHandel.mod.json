@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Platten-Dealer",
+    "pointOfInterest": {
+      "value": "Blocks.JUKEBOX"
+    },
+    "actionSound": {
+      "value": "entity.villager.yes"
+    },
+    "hat": "None",
+    "professionTextureFile": "villager.png",
+    "zombifiedProfessionTextureFile": "villager.png"
+  }
+}

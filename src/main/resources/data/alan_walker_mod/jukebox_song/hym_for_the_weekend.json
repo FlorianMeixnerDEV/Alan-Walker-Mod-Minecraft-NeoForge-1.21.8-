@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.alan_walker_mod.hym_for_the_weekend.desc"
+  },
+  "length_in_seconds": 230,
+  "sound_event": "alan_walker_mod:hymfortheweekend"
+}
