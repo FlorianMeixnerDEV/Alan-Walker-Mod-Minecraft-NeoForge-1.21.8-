@@ -1,0 +1,9 @@
+{
+  "parent": "alan_walker_mod:custom/madebyfmd",
+  "textures": {
+    "all": "alan_walker_mod:block/madeby",
+    "particle": "alan_walker_mod:block/madeby",
+    "1": "alan_walker_mod:block/madeby"
+  },
+  "render_type": "solid"
+}

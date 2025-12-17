@@ -5,6 +5,9 @@
     },
     "alan_walker_mod:alan_guard": {
       "weight": 100
+    },
+    "alan_walker_mod:bad_alan": {
+      "weight": 100
     }
   }
 }

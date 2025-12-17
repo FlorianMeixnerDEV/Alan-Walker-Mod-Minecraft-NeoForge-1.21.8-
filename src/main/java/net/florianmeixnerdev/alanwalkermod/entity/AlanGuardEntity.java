@@ -21,7 +21,6 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.florianmeixnerdev.alanwalkermod.init.AlanWalkerModModEntities;
@@ -31,8 +30,6 @@ public class AlanGuardEntity extends PathfinderMob {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
-		setCustomName(Component.literal("The Guard"));
-		setCustomNameVisible(true);
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(Items.NETHERITE_SWORD));
 		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(Items.NETHERITE_HELMET));
 		this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(Items.NETHERITE_CHESTPLATE));

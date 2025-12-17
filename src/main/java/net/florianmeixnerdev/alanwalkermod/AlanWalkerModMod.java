@@ -20,7 +20,11 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.florianmeixnerdev.alanwalkermod.init.*;
+import net.florianmeixnerdev.alanwalkermod.init.AlanWalkerModModTabs;
+import net.florianmeixnerdev.alanwalkermod.init.AlanWalkerModModSounds;
+import net.florianmeixnerdev.alanwalkermod.init.AlanWalkerModModItems;
+import net.florianmeixnerdev.alanwalkermod.init.AlanWalkerModModEntities;
+import net.florianmeixnerdev.alanwalkermod.init.AlanWalkerModModBlocks;
 
 import javax.annotation.Nullable;
 
@@ -50,7 +54,6 @@ public class AlanWalkerModMod {
 		AlanWalkerModModItems.REGISTRY.register(modEventBus);
 		AlanWalkerModModEntities.REGISTRY.register(modEventBus);
 		AlanWalkerModModTabs.REGISTRY.register(modEventBus);
-		AlanWalkerModModVillagerProfessions.PROFESSIONS.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

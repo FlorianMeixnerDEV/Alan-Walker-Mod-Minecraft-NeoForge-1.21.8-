@@ -47,6 +47,11 @@ public class AlanWalkerModModTabs {
 				tabData.accept(AlanWalkerModModItems.HYM_FOR_THE_WEEKEND.get());
 				tabData.accept(AlanWalkerModModItems.RUNNING_OUT_OF_ROSES.get());
 				tabData.accept(AlanWalkerModModItems.JUMPSTART.get());
+				tabData.accept(AlanWalkerModModItems.ALAN_WALKER_135_DISC.get());
+				tabData.accept(AlanWalkerModModItems.SPACEMELODY_DISC.get());
+				tabData.accept(AlanWalkerModModItems.BROKEN_ANGEL_DISC.get());
+				tabData.accept(AlanWalkerModModItems.FANTASY_DISC.get());
+				tabData.accept(AlanWalkerModModItems.KILLING_ME_SLOWLY_DISC.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPAWNEIER = REGISTRY.register("spawneier",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alan_walker_mod.spawneier")).icon(() -> new ItemStack(Items.SKELETON_SPAWN_EGG)).displayItems((parameters, tabData) -> {
@@ -56,7 +61,6 @@ public class AlanWalkerModModTabs {
 			}).withSearchBar().withTabsBefore(SCHALLPLATTEN.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DEKO = REGISTRY.register("deko",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alan_walker_mod.deko")).icon(() -> new ItemStack(Blocks.GOLD_BLOCK)).displayItems((parameters, tabData) -> {
-				tabData.accept(AlanWalkerModModBlocks.STUHL.get().asItem());
 				tabData.accept(AlanWalkerModModBlocks.TISCH.get().asItem());
 			}).withTabsBefore(SPAWNEIER.getId()).build());
 }

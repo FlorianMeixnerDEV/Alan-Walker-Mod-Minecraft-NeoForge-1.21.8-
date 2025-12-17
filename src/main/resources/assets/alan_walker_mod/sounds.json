@@ -254,5 +254,45 @@
         "stream": false
       }
     ]
+  },
+  "alanwalker135": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:135",
+        "stream": false
+      }
+    ]
+  },
+  "spacemelody": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:vizeofficial_x_alan_walker_space_melody_edward_artemyev_ft._leony_official_lyric_video_tuberipper.cc",
+        "stream": false
+      }
+    ]
+  },
+  "brokenangle": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:alan_walker_steve_aoki_lonely_club_arash_-_broken_angel_official_visualizer_tuberipper.cc",
+        "stream": false
+      }
+    ]
+  },
+  "killingmeslowly": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:alan_walker_steve_aoki_lonely_club_-_killing_me_slowly_lalala_official_visualizer_tuberipper.cc",
+        "stream": false
+      }
+    ]
+  },
+  "fantasy": {
+    "sounds": [
+      {
+        "name": "alan_walker_mod:alan_walker_steve_aoki_lonely_club_-_fantasy_official_visualizer_tuberipper.cc",
+        "stream": false
+      }
+    ]
   }
 }

@@ -10,17 +10,17 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
 import net.florianmeixnerdev.alanwalkermod.block.TischBlock;
-import net.florianmeixnerdev.alanwalkermod.block.StuhlBlock;
+import net.florianmeixnerdev.alanwalkermod.block.MadeByFMDBlock;
 import net.florianmeixnerdev.alanwalkermod.AlanWalkerModMod;
 
 import java.util.function.Function;
 
 public class AlanWalkerModModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(AlanWalkerModMod.MODID);
-	public static final DeferredBlock<Block> STUHL;
+	public static final DeferredBlock<Block> MADE_BY_FMD;
 	public static final DeferredBlock<Block> TISCH;
 	static {
-		STUHL = register("stuhl", StuhlBlock::new);
+		MADE_BY_FMD = register("made_by_fmd", MadeByFMDBlock::new);
 		TISCH = register("tisch", TischBlock::new);
 	}
 

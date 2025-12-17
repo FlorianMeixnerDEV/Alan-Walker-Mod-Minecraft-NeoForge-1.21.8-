@@ -48,4 +48,9 @@ public class AlanWalkerModModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> HYMFORTHEWEEKEND = REGISTRY.register("hymfortheweekend", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "hymfortheweekend")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> RUNNINGOUTOFROSES = REGISTRY.register("runningoutofroses", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "runningoutofroses")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> JUMPSTART = REGISTRY.register("jumpstart", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "jumpstart")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> ALANWALKER135 = REGISTRY.register("alanwalker135", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "alanwalker135")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> SPACEMELODY = REGISTRY.register("spacemelody", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "spacemelody")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> BROKENANGLE = REGISTRY.register("brokenangle", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "brokenangle")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> KILLINGMESLOWLY = REGISTRY.register("killingmeslowly", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "killingmeslowly")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> FANTASY = REGISTRY.register("fantasy", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_mod", "fantasy")));
 }

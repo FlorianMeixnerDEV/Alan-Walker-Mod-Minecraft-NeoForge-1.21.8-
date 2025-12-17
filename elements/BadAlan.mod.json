@@ -141,7 +141,7 @@
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [],
-    "spawnInDungeons": false,
+    "spawnInDungeons": true,
     "raidSpawnsCount": [
       4,
       3,

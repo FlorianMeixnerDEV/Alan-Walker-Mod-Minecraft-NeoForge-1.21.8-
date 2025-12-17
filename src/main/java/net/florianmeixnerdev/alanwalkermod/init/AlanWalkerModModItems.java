@@ -31,8 +31,6 @@ public class AlanWalkerModModItems {
 	public static final DeferredItem<Item> WELCOME_TO_WALKERWORLD;
 	public static final DeferredItem<Item> RISE_OF_THE_DRONES;
 	public static final DeferredItem<Item> ALAN_WALKER_SPAWN_EGG;
-	public static final DeferredItem<Item> STUHL;
-	public static final DeferredItem<Item> TISCH;
 	public static final DeferredItem<Item> SAILING;
 	public static final DeferredItem<Item> LONELY_CLUB;
 	public static final DeferredItem<Item> ALAN_GUARD_SPAWN_EGG;
@@ -52,6 +50,13 @@ public class AlanWalkerModModItems {
 	public static final DeferredItem<Item> RUNNING_OUT_OF_ROSES;
 	public static final DeferredItem<Item> JUMPSTART;
 	public static final DeferredItem<Item> BAD_ALAN_SPAWN_EGG;
+	public static final DeferredItem<Item> MADE_BY_FMD;
+	public static final DeferredItem<Item> TISCH;
+	public static final DeferredItem<Item> ALAN_WALKER_135_DISC;
+	public static final DeferredItem<Item> SPACEMELODY_DISC;
+	public static final DeferredItem<Item> BROKEN_ANGEL_DISC;
+	public static final DeferredItem<Item> FANTASY_DISC;
+	public static final DeferredItem<Item> KILLING_ME_SLOWLY_DISC;
 	static {
 		AVALON_DISC = register("avalon_disc", AvalonDiscItem::new);
 		BELIEVERS_DISC = register("believers_disc", BelieversDiscItem::new);
@@ -65,8 +70,6 @@ public class AlanWalkerModModItems {
 		WELCOME_TO_WALKERWORLD = register("welcome_to_walkerworld", WelcomeToWalkerworldItem::new);
 		RISE_OF_THE_DRONES = register("rise_of_the_drones", RiseOfTheDronesItem::new);
 		ALAN_WALKER_SPAWN_EGG = register("alan_walker_spawn_egg", properties -> new SpawnEggItem(AlanWalkerModModEntities.ALAN_WALKER.get(), properties));
-		STUHL = block(AlanWalkerModModBlocks.STUHL);
-		TISCH = block(AlanWalkerModModBlocks.TISCH);
 		SAILING = register("sailing", SailingItem::new);
 		LONELY_CLUB = register("lonely_club", LonelyClubItem::new);
 		ALAN_GUARD_SPAWN_EGG = register("alan_guard_spawn_egg", properties -> new SpawnEggItem(AlanWalkerModModEntities.ALAN_GUARD.get(), properties));
@@ -86,6 +89,13 @@ public class AlanWalkerModModItems {
 		RUNNING_OUT_OF_ROSES = register("running_out_of_roses", RunningOutOfRosesItem::new);
 		JUMPSTART = register("jumpstart", JumpstartItem::new);
 		BAD_ALAN_SPAWN_EGG = register("bad_alan_spawn_egg", properties -> new SpawnEggItem(AlanWalkerModModEntities.BAD_ALAN.get(), properties));
+		MADE_BY_FMD = block(AlanWalkerModModBlocks.MADE_BY_FMD);
+		TISCH = block(AlanWalkerModModBlocks.TISCH);
+		ALAN_WALKER_135_DISC = register("alan_walker_135_disc", AlanWalker135DiscItem::new);
+		SPACEMELODY_DISC = register("spacemelody_disc", SpacemelodyDiscItem::new);
+		BROKEN_ANGEL_DISC = register("broken_angel_disc", BrokenAngelDiscItem::new);
+		FANTASY_DISC = register("fantasy_disc", FantasyDiscItem::new);
+		KILLING_ME_SLOWLY_DISC = register("killing_me_slowly_disc", KillingMeSlowlyDiscItem::new);
 	}
 
 	// Start of user code block custom items

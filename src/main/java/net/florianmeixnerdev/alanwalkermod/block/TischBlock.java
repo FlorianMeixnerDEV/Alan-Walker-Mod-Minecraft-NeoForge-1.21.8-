@@ -29,10 +29,4 @@ public class TischBlock extends Block {
 	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.empty();
 	}
-
-	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.or(box(14, 0, 15, 16, 15, 16), box(14, 0, 0, 16, 15, 1), box(0, 0, 0, 2, 15, 1), box(0, 0, 15, 2, 15, 16), box(15, 0, 13, 16, 15, 15), box(15, 0, 1, 16, 15, 3), box(0, 0, 1, 1, 15, 3), box(0, 0, 13, 1, 15, 15),
-				box(0, 15, 0, 16, 16, 16));
-	}
 }

@@ -384,53 +384,6 @@
       "path": "~/Prozeduren"
     },
     {
-      "name": "Deko",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "deko",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/CreativeGUI"
-    },
-    {
-      "name": "Stuhl",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stuhl",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/alan_walker_mod/items/stuhl.json",
-          "src/main/resources/assets/alan_walker_mod/models/block/stuhl.json",
-          "src/main/java/net/florianmeixnerdev/alanwalkermod/block/StuhlBlock.java",
-          "src/main/resources/assets/alan_walker_mod/blockstates/stuhl.json",
-          "src/main/resources/assets/alan_walker_mod/models/item/stuhl.json",
-          "src/main/resources/data/alan_walker_mod/loot_table/blocks/stuhl.json"
-        ]
-      },
-      "path": "~/Deko"
-    },
-    {
-      "name": "Tisch",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tisch",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/alan_walker_mod/items/tisch.json",
-          "src/main/resources/assets/alan_walker_mod/models/item/tisch.json",
-          "src/main/java/net/florianmeixnerdev/alanwalkermod/block/TischBlock.java",
-          "src/main/resources/assets/alan_walker_mod/models/block/tisch.json",
-          "src/main/resources/data/alan_walker_mod/loot_table/blocks/tisch.json",
-          "src/main/resources/assets/alan_walker_mod/blockstates/tisch.json"
-        ]
-      },
-      "path": "~/Deko"
-    },
-    {
       "name": "Sailing",
       "type": "item",
       "compiles": true,
@@ -653,28 +606,6 @@
       "path": "~/Disc"
     },
     {
-      "name": "SchallplattenHandel",
-      "type": "villagerprofession",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "schallplatten_handel",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Dorfbewohner"
-    },
-    {
-      "name": "SchallplattenDeal",
-      "type": "villagertrade",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "schallplatten_deal",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/VillagerHandel"
-    },
-    {
       "name": "Alone",
       "type": "item",
       "compiles": true,
@@ -814,6 +745,133 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "MadeByFMD",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "made_by_fmd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/models/item/made_by_fmd.json",
+          "src/main/resources/assets/alan_walker_mod/blockstates/made_by_fmd.json",
+          "src/main/resources/assets/alan_walker_mod/models/block/made_by_fmd.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/block/MadeByFMDBlock.java",
+          "src/main/resources/data/alan_walker_mod/loot_table/blocks/made_by_fmd.json",
+          "src/main/resources/assets/alan_walker_mod/items/made_by_fmd.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Deko",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deko",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CreativeGUI"
+    },
+    {
+      "name": "Tisch",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tisch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/tisch.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/tisch.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/block/TischBlock.java",
+          "src/main/resources/assets/alan_walker_mod/models/block/tisch.json",
+          "src/main/resources/data/alan_walker_mod/loot_table/blocks/tisch.json",
+          "src/main/resources/assets/alan_walker_mod/blockstates/tisch.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AlanWalker135Disc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alan_walker_135_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/alan_walker_135_disc.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/alan_walker_135_disc.json",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/alan_walker_135_disc.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/AlanWalker135DiscItem.java"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "SpacemelodyDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spacemelody_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/spacemelody_disc.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/SpacemelodyDiscItem.java",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/spacemelody_disc.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/spacemelody_disc.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "BrokenAngelDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_angel_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/models/item/broken_angel_disc.json",
+          "src/main/resources/assets/alan_walker_mod/items/broken_angel_disc.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/BrokenAngelDiscItem.java",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/broken_angel_disc.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "FantasyDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fantasy_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/fantasy_disc.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/FantasyDiscItem.java",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/fantasy_disc.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/fantasy_disc.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "KillingMeSlowlyDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killing_me_slowly_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alan_walker_mod/items/killing_me_slowly_disc.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermod/item/KillingMeSlowlyDiscItem.java",
+          "src/main/resources/data/alan_walker_mod/jukebox_song/killing_me_slowly_disc.json",
+          "src/main/resources/assets/alan_walker_mod/models/item/killing_me_slowly_disc.json"
+        ]
+      },
+      "path": "~/Disc"
     }
   ],
   "variable_elements": [],
@@ -1073,10 +1131,55 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "alanwalker135",
+      "files": [
+        "135"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "spacemelody",
+      "files": [
+        "vizeofficial_x_alan_walker_space_melody_edward_artemyev_ft._leony_official_lyric_video_tuberipper.cc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "brokenangle",
+      "files": [
+        "alan_walker_steve_aoki_lonely_club_arash_-_broken_angel_official_visualizer_tuberipper.cc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "killingmeslowly",
+      "files": [
+        "alan_walker_steve_aoki_lonely_club_-_killing_me_slowly_lalala_official_visualizer_tuberipper.cc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fantasy",
+      "files": [
+        "alan_walker_steve_aoki_lonely_club_-_fantasy_official_visualizer_tuberipper.cc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
     "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:KillingMeSlowlyDisc",
+      "~CUSTOM:FantasyDisc",
+      "~CUSTOM:BrokenAngelDisc",
+      "~CUSTOM:SpacemelodyDisc",
+      "~CUSTOM:AlanWalker135Disc",
       "~CUSTOM:Jumpstart",
       "~CUSTOM:RunningOutOfRoses",
       "~CUSTOM:HymForTheWeekend",
@@ -1148,16 +1251,13 @@
       "item.alan_walker_mod.time": "Schallplatte",
       "item.alan_walker_mod.time.desc": "Alan Walker, Hans Zimmer - Time",
       "item.alan_walker_mod.welcome_to_walkerworld": "Schallplatte",
-      "item.alan_walker_mod.welcome_to_walkerworld.desc": "Alan Walker - Wecome to Walkerworld",
+      "item.alan_walker_mod.welcome_to_walkerworld.desc": "Alan Walker - Welcome to Walkerworld",
       "item.alan_walker_mod.rise_of_the_drones.desc": "WorldOfWalker - Rise Of The Drones",
       "item.alan_walker_mod.rise_of_the_drones": "Schallplatte",
       "item_group.alan_walker_mod.spawneier": "Mobs",
       "subtitles.hello": "",
       "entity.alan_walker_mod.alan_walker": "Alan Walker",
       "item.alan_walker_mod.alan_walker_spawn_egg": "Alan Walker Spawn Egg",
-      "item_group.alan_walker_mod.deko": "Deko",
-      "item.alan_walker_mod.stuhl": "Stuhl",
-      "item.alan_walker_mod.tisch": "Tisch",
       "subtitles.lonelyclub": "",
       "subtitles.sailing": "",
       "item.alan_walker_mod.sailing.desc": "Alan Walker x Old School RuneScape - Sailing",
@@ -1180,7 +1280,7 @@
       "item.alan_walker_mod.chatch_me_if_you_can": "Schallplatte",
       "item.alan_walker_mod.chatch_me_if_you_can.desc": "Alan Walker \u0026 Sorana - Chatch Me If You Can",
       "item.alan_walker_mod.exremes": "Schallplatte",
-      "item.alan_walker_mod.exremes.desc": "Alan Walker \u0026 Trevor Daniel - Exremes",
+      "item.alan_walker_mod.exremes.desc": "Alan Walker \u0026 Trevor Daniel - Extremes",
       "item.alan_walker_mod.headlights": "Schallplatte",
       "item.alan_walker_mod.headlights.desc": "Alok \u0026 Alan Walker - Headlights (feat. KIDDO)",
       "item.alan_walker_mod.hello_world.desc": "Alan Walker \u0026 Torine - Hello World",
@@ -1199,7 +1299,6 @@
       "item.alan_walker_mod.fire.desc": "Alan Walker - Fire (feat.YUQI, JVKE)",
       "item.alan_walker_mod.play.desc": "Alan Walker. K-391, Tungevaag, Mangoo - Play",
       "item.alan_walker_mod.play": "Schallplatte",
-      "entity.villager.alan_walker_mod.schallplatten_handel": "Platten-Dealer",
       "item.alan_walker_mod.alone": "Schallplatte",
       "item.alan_walker_mod.sing_me_to_sleep": "Schallplatte",
       "subtitles.alone": "",
@@ -1216,14 +1315,30 @@
       "item.alan_walker_mod.running_out_of_roses.desc": "Alan Walker x Jamie Miller - Running Out Of Roses",
       "item.alan_walker_mod.jumpstart.desc": "Alan Walker - Jumpstart",
       "entity.alan_walker_mod.bad_alan": "Bad Alan",
-      "item.alan_walker_mod.bad_alan_spawn_egg": "Bad Alan Spawn Egg"
+      "item.alan_walker_mod.bad_alan_spawn_egg": "Bad Alan Spawn Egg",
+      "item.alan_walker_mod.made_by_fmd": "Credit-Block",
+      "item_group.alan_walker_mod.deko": "Deko",
+      "item.alan_walker_mod.tisch": "Tisch",
+      "subtitles.alanwalker135": "",
+      "item.alan_walker_mod.alan_walker_135_disc": "Schallplatte",
+      "item.alan_walker_mod.alan_walker_135_disc.desc": "Alan Walker - 135",
+      "subtitles.rickroll": "",
+      "subtitles.spacemelody": "",
+      "subtitles.brokenangle": "",
+      "subtitles.killingmeslowly": "",
+      "subtitles.fantasy": "",
+      "item.alan_walker_mod.spacemelody_disc": "Schallplatte",
+      "item.alan_walker_mod.spacemelody_disc.desc": "VIZE x Alan Walker - Space Melody (Edward Artemyev)",
+      "item.alan_walker_mod.broken_angel_disc.desc": "Alan Walker, Steve Aoki, Lonely Club - Broken Angel",
+      "item.alan_walker_mod.broken_angel_disc": "Schalllplatte",
+      "item.alan_walker_mod.fantasy_disc.desc": "Alan Walker, Steve Aoki, Lonely Club - Fantasy",
+      "item.alan_walker_mod.fantasy_disc": "Schallplatte",
+      "item.alan_walker_mod.killing_me_slowly_disc": "Schallplatte",
+      "item.alan_walker_mod.killing_me_slowly_disc.desc": "Alan Walker, Steve Aoki,  Lonely Club - Killing Me Slowly (LaLaLa)"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModVillagerProfessions.java",
-      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
-      "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModTrades.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModBlocks.java",
       "src/main/java/net/florianmeixnerdev/alanwalkermod/init/AlanWalkerModModItems.java",
@@ -1257,10 +1372,6 @@
         "children": []
       },
       {
-        "name": "Dorfbewohner",
-        "children": []
-      },
-      {
         "name": "Mobs",
         "children": []
       },
@@ -1269,15 +1380,7 @@
         "children": []
       },
       {
-        "name": "Deko",
-        "children": []
-      },
-      {
         "name": "Beutetabellen",
-        "children": []
-      },
-      {
-        "name": "VillagerHandel",
         "children": []
       }
     ]
@@ -1285,7 +1388,7 @@
   "workspaceSettings": {
     "modid": "alan_walker_mod",
     "modName": "Alan Walker Mod",
-    "version": "1.3",
+    "version": "1.4.4",
     "description": "This mod brings the unforgettable sounds of Alan Walker directly into your Minecraft world! Discover new, collectible music tracks and face three unique new mobs that provide a musical challenge.",
     "author": "FlorianMeixnerDEV",
     "websiteURL": "https://florianmeixnerdev.github.io",

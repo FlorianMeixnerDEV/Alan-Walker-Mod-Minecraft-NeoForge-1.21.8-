@@ -3,7 +3,7 @@
   "_type": "livingentity",
   "definition": {
     "mobName": "Guard",
-    "mobLabel": "The Guard",
+    "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "guardskin.png",
     "transparentModelCondition": {
