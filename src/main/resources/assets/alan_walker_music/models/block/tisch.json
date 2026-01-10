@@ -1,0 +1,9 @@
+{
+  "parent": "alan_walker_music:custom/tisch",
+  "textures": {
+    "all": "alan_walker_music:block/tisch",
+    "particle": "alan_walker_music:block/tisch",
+    "0": "alan_walker_music:block/tisch"
+  },
+  "render_type": "solid"
+}

@@ -9,11 +9,11 @@
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Schalllplatte",
+    "name": "Schallplatte",
     "rarity": "EPIC",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Schallplatten"
+        "value": "CUSTOM:Disc"
       }
     ],
     "stackSize": 1,
@@ -59,7 +59,7 @@
     "musicDiscMusic": {
       "value": "CUSTOM:fire"
     },
-    "musicDiscDescription": "Alan Walker - Fire (feat.YUQI, JVKE)",
+    "musicDiscDescription": "Alan Walker, YUQI of (G)I-DLE, JVKE - Fire",
     "musicDiscLengthInTicks": 2460,
     "musicDiscAnalogOutput": 0,
     "providedBannerPatterns": []

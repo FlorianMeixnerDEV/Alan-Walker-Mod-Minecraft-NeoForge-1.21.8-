@@ -3,17 +3,17 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "disc14",
+    "texture": "disc15",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Schalllplatte",
+    "name": "Schallplatte",
     "rarity": "EPIC",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Schallplatten"
+        "value": "CUSTOM:Disc"
       }
     ],
     "stackSize": 1,

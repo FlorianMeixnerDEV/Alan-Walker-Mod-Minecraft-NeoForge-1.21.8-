@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "disc23",
+    "texture": "disc31",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
@@ -13,7 +13,7 @@
     "rarity": "EPIC",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Schallplatten"
+        "value": "CUSTOM:Disc"
       }
     ],
     "stackSize": 1,
@@ -25,7 +25,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "isPiglinCurrency": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
@@ -59,7 +59,7 @@
     "musicDiscMusic": {
       "value": "CUSTOM:play"
     },
-    "musicDiscDescription": "Alan Walker. K-391, Tungevaag, Mangoo - Play",
+    "musicDiscDescription": " Alan Walker, K-391, Tungevaag, Mangoo - PLAY",
     "musicDiscLengthInTicks": 3460,
     "musicDiscAnalogOutput": 0,
     "providedBannerPatterns": []

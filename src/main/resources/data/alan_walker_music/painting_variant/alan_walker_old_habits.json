@@ -1,0 +1,11 @@
+{
+  "asset_id": "alan_walker_music:alan_walker_old_habits",
+  "height": 2,
+  "width": 4,
+  "title": {
+    "translate": "painting.alan_walker_music.alan_walker_old_habits.title"
+  },
+  "author": {
+    "translate": "painting.alan_walker_music.alan_walker_old_habits.author"
+  }
+}

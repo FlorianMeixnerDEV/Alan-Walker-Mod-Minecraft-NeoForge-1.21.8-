@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "disc19",
+    "texture": "disc28",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
@@ -13,7 +13,7 @@
     "rarity": "EPIC",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Schallplatten"
+        "value": "CUSTOM:Disc"
       }
     ],
     "stackSize": 1,

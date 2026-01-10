@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "disc20",
+    "texture": "disc32",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
@@ -13,7 +13,7 @@
     "rarity": "EPIC",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Schallplatten"
+        "value": "CUSTOM:Disc"
       }
     ],
     "stackSize": 1,
@@ -59,8 +59,8 @@
     "musicDiscMusic": {
       "value": "CUSTOM:shutup"
     },
-    "musicDiscDescription": "Alan Walker & UPSAHL - Shut Up",
-    "musicDiscLengthInTicks": 2880,
+    "musicDiscDescription": "Alan Walker & UPSHAL - Shut Up ",
+    "musicDiscLengthInTicks": 2800,
     "musicDiscAnalogOutput": 0,
     "providedBannerPatterns": []
   }

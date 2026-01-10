@@ -1,0 +1,274 @@
+{
+  "alanwalker135": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:135",
+        "stream": false
+      }
+    ]
+  },
+  "lonelyclub": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:alanwalker_steveaoki_lonelyclub_welcometolonelyclub",
+        "stream": false
+      }
+    ]
+  },
+  "sailing": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:alanwalker_x_oldscoolrunescape_sailing",
+        "stream": false
+      }
+    ]
+  },
+  "alone": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:alone",
+        "stream": false
+      }
+    ]
+  },
+  "avalon": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:avalon",
+        "stream": false
+      }
+    ]
+  },
+  "believers": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:believers",
+        "stream": false
+      }
+    ]
+  },
+  "blue": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:blue",
+        "stream": false
+      }
+    ]
+  },
+  "catchmeifyoucan": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:catchmeifyoucan",
+        "stream": false
+      }
+    ]
+  },
+  "creatorcircle": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:creatorcircle",
+        "stream": false
+      }
+    ]
+  },
+  "diamondheart": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:diamondheart",
+        "stream": false
+      }
+    ]
+  },
+  "dreamer": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:dremaer",
+        "stream": false
+      }
+    ]
+  },
+  "dust": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:dust",
+        "stream": false
+      }
+    ]
+  },
+  "extremes": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:exremes",
+        "stream": false
+      }
+    ]
+  },
+  "faded": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:faded",
+        "stream": false
+      }
+    ]
+  },
+  "fire": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:fire",
+        "stream": false
+      }
+    ]
+  },
+  "headlights": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:headlights",
+        "stream": false
+      }
+    ]
+  },
+  "heartbreakmelody": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:heartbreakmelody",
+        "stream": false
+      }
+    ]
+  },
+  "helloworld": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:helloworld",
+        "stream": false
+      }
+    ]
+  },
+  "incommunicado": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:incommunicado",
+        "stream": false
+      }
+    ]
+  },
+  "jumpstart": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:jumpstart",
+        "stream": false
+      }
+    ]
+  },
+  "lovesick": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:lovesick",
+        "stream": false
+      }
+    ]
+  },
+  "memyselfandthenight": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:memyselfandthenight",
+        "stream": false
+      }
+    ]
+  },
+  "moonshine": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:moonshine",
+        "stream": false
+      }
+    ]
+  },
+  "oldhabits": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:oldhabits",
+        "stream": false
+      }
+    ]
+  },
+  "play": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:play",
+        "stream": false
+      }
+    ]
+  },
+  "shutup": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:shutup",
+        "stream": false
+      }
+    ]
+  },
+  "singmetosleep": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:singmetosleep",
+        "stream": false
+      }
+    ]
+  },
+  "thedrum": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:the_drum",
+        "stream": false
+      }
+    ]
+  },
+  "thespectre": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:thesprectre",
+        "stream": false
+      }
+    ]
+  },
+  "time": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:time",
+        "stream": false
+      }
+    ]
+  },
+  "spacemelody": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:vizeofficial_x_alan_walker_space_melody_edward_artemyev_ft._leony_official_lyric_video_tuberipper.cc",
+        "stream": false
+      }
+    ]
+  },
+  "welcometowalkerworld": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:welcometowalkerworld",
+        "stream": false
+      }
+    ]
+  },
+  "riseofthedrones": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:worldofwalker_riseofthedrones",
+        "stream": false
+      }
+    ]
+  },
+  "schritte": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:schritte-auf-stein-388650",
+        "stream": false
+      }
+    ]
+  }
+}

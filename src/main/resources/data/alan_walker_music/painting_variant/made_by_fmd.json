@@ -1,0 +1,11 @@
+{
+  "asset_id": "alan_walker_music:made_by_fmd",
+  "height": 1,
+  "width": 1,
+  "title": {
+    "translate": "painting.alan_walker_music.made_by_fmd.title"
+  },
+  "author": {
+    "translate": "painting.alan_walker_music.made_by_fmd.author"
+  }
+}

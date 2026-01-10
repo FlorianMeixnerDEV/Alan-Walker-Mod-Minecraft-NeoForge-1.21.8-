@@ -15,7 +15,7 @@ prioritizeChunkUpdates:0
 fullscreen:true
 gamma:0.5
 graphicsMode:0
-guiScale:2
+guiScale:0
 maxFps:260
 inactivityFpsLimit:"afk"
 mipmapLevels:2
@@ -30,7 +30,7 @@ screenEffectScale:1.0
 soundDevice:""
 autoJump:false
 rotateWithMinecart:false
-operatorItemsTab:true
+operatorItemsTab:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true

@@ -1,0 +1,11 @@
+{
+  "asset_id": "alan_walker_music:alan_walker_logo",
+  "height": 2,
+  "width": 2,
+  "title": {
+    "translate": "painting.alan_walker_music.alan_walker_logo.title"
+  },
+  "author": {
+    "translate": "painting.alan_walker_music.alan_walker_logo.author"
+  }
+}

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "disc11",
+    "texture": "disc9",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
@@ -13,7 +13,7 @@
     "rarity": "EPIC",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Schallplatten"
+        "value": "CUSTOM:Disc"
       }
     ],
     "stackSize": 1,
@@ -57,9 +57,9 @@
     "animation": "none",
     "isMusicDisc": true,
     "musicDiscMusic": {
-      "value": "CUSTOM:worldofwalker_riseofthedrones"
+      "value": "CUSTOM:riseofthedrones"
     },
-    "musicDiscDescription": "WorldOfWalker - Rise Of The Drones",
+    "musicDiscDescription": "World Of Walker - Rise Of The Drones",
     "musicDiscLengthInTicks": 4640,
     "musicDiscAnalogOutput": 0,
     "providedBannerPatterns": []

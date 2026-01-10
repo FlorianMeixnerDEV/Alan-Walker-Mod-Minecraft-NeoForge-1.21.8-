@@ -1,0 +1,11 @@
+{
+  "asset_id": "alan_walker_music:house_of_walker",
+  "height": 2,
+  "width": 4,
+  "title": {
+    "translate": "painting.alan_walker_music.house_of_walker.title"
+  },
+  "author": {
+    "translate": "painting.alan_walker_music.house_of_walker.author"
+  }
+}

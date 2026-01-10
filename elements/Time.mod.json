@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "disc9",
+    "texture": "disc6",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
@@ -13,7 +13,7 @@
     "rarity": "EPIC",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Schallplatten"
+        "value": "CUSTOM:Disc"
       }
     ],
     "stackSize": 1,
@@ -59,7 +59,7 @@
     "musicDiscMusic": {
       "value": "CUSTOM:time"
     },
-    "musicDiscDescription": "Alan Walker, Hans Zimmer - Time",
+    "musicDiscDescription": "Alan Walker, Hanz Zimmer - Time",
     "musicDiscLengthInTicks": 4220,
     "musicDiscAnalogOutput": 0,
     "providedBannerPatterns": []

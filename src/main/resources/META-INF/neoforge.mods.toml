@@ -3,9 +3,9 @@ loaderVersion="[4,)"
 license="Creative Commons Attribution-NonCommercial 3.0"
 
 [[mods]]
-modId="alan_walker_mod"
-version="1.4.3"
-displayName="Alan Walker Mod"
+modId="alan_walker_music"
+version="1.4.5"
+displayName="Alan Walker Music"
 displayURL="https://florianmeixnerdev.github.io"
 logoFile="logo.png"
 credits="Creator: Florian Meixner "
@@ -19,14 +19,14 @@ description="This mod brings the unforgettable sounds of Alan Walker directly in
 # Start of user code block custom mixins
 # End of user code block custom mixins
 
-[[dependencies.alan_walker_mod]]
+[[dependencies.alan_walker_music]]
     modId="neoforge"
     type="required"
     versionRange="[21.8.31,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.alan_walker_mod]]
+[[dependencies.alan_walker_music]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.8]"

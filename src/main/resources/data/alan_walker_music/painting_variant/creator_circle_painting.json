@@ -1,0 +1,11 @@
+{
+  "asset_id": "alan_walker_music:creator_circle_painting",
+  "height": 3,
+  "width": 3,
+  "title": {
+    "translate": "painting.alan_walker_music.creator_circle_painting.title"
+  },
+  "author": {
+    "translate": "painting.alan_walker_music.creator_circle_painting.author"
+  }
+}

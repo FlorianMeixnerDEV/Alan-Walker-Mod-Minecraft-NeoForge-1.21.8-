@@ -1,12 +1,6 @@
 {
   "values": {
-    "alan_walker_mod:alan_walker": {
-      "weight": 100
-    },
-    "alan_walker_mod:alan_guard": {
-      "weight": 100
-    },
-    "alan_walker_mod:bad_alan": {
+    "alan_walker_music:alan_walker": {
       "weight": 100
     }
   }

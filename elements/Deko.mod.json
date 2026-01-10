@@ -6,6 +6,6 @@
     "icon": {
       "value": "Blocks.GOLD_BLOCK"
     },
-    "showSearch": false
+    "showSearch": true
   }
 }
