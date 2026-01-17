@@ -50,4 +50,8 @@ public class AlanWalkerMusicModSounds {
 			() -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_music", "welcometowalkerworld")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> RISEOFTHEDRONES = REGISTRY.register("riseofthedrones", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_music", "riseofthedrones")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> SCHRITTE = REGISTRY.register("schritte", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_music", "schritte")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> BROKENSTRINGS = REGISTRY.register("brokenstrings", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_music", "brokenstrings")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> NOTHOME = REGISTRY.register("nothome", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_music", "nothome")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> FADED_10TH_ANNIVERSARY = REGISTRY.register("faded_10th_anniversary",
+			() -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("alan_walker_music", "faded_10th_anniversary")));
 }

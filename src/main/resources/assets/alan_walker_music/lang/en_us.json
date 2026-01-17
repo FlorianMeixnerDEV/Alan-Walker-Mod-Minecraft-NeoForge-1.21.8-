@@ -128,5 +128,18 @@
   "gui.alan_walker_music.link_info.button_github": "Github",
   "gui.alan_walker_music.link_info.button_modrinth": "Modrinth",
   "gui.alan_walker_music.link_info.button_close": "Close",
-  "gui.alan_walker_music.ingame_menu.label_made_by_florianmeixnerdev": "Made by FlorianMeixnerDEV"
+  "gui.alan_walker_music.ingame_menu.label_made_by_florianmeixnerdev": "Made by FlorianMeixnerDEV",
+  "gui.alan_walker_music.link_info.label_github_source_code": "Github Source Code",
+  "gui.alan_walker_music.link_info.label_mod_page": "Mod Page",
+  "gui.alan_walker_music.link_info.label_here_you_can_find_my_online_pres": "Here you can find my ",
+  "gui.alan_walker_music.link_info.label_online_presence": "online presence:",
+  "subtitles.brokenstrings": "",
+  "subtitles.nothome": "",
+  "subtitles.faded_10th_anniversary": "",
+  "item.alan_walker_music.broken_strings": "Schallplatte",
+  "item.alan_walker_music.not_home": "Schallplatte",
+  "item.alan_walker_music.faded_10th_aniniversary": "Schallplatte",
+  "item.alan_walker_music.broken_strings.desc": "Alan Walker - Broken Strings ",
+  "item.alan_walker_music.not_home.desc": "Alan Walker - Not Home",
+  "item.alan_walker_music.faded_10th_aniniversary.desc": "Faded - 10th Anniversary (Performance Song)"
 }

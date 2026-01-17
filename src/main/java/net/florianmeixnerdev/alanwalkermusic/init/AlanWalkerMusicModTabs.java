@@ -55,6 +55,9 @@ public class AlanWalkerMusicModTabs {
 				tabData.accept(AlanWalkerMusicModItems.SPACE_MELODY.get());
 				tabData.accept(AlanWalkerMusicModItems.WECOME_TO_WALKERWORLD.get());
 				tabData.accept(AlanWalkerMusicModItems.RISE_OF_THE_DRONES.get());
+				tabData.accept(AlanWalkerMusicModItems.BROKEN_STRINGS.get());
+				tabData.accept(AlanWalkerMusicModItems.NOT_HOME.get());
+				tabData.accept(AlanWalkerMusicModItems.FADED_10TH_ANINIVERSARY.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOBS = REGISTRY.register("mobs",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alan_walker_music.mobs")).icon(() -> new ItemStack(Items.BLUE_EGG)).displayItems((parameters, tabData) -> {

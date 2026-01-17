@@ -270,5 +270,29 @@
         "stream": false
       }
     ]
+  },
+  "brokenstrings": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:alan_walker_-_broken_strings_official_music_video_tuberipper.cc",
+        "stream": false
+      }
+    ]
+  },
+  "nothome": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:alan_walker_-_not_home_official_lyric_video_tuberipper.cc",
+        "stream": false
+      }
+    ]
+  },
+  "faded_10th_anniversary": {
+    "sounds": [
+      {
+        "name": "alan_walker_music:faded_-_10th_anniversary_performance_video_tuberipper.cc",
+        "stream": false
+      }
+    ]
   }
 }

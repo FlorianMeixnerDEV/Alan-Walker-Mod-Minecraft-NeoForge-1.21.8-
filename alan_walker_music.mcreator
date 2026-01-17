@@ -906,6 +906,54 @@
         ]
       },
       "path": "~/Overlay"
+    },
+    {
+      "name": "BrokenStrings",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_strings",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermusic/item/BrokenStringsItem.java",
+          "src/main/resources/assets/alan_walker_music/models/item/broken_strings.json",
+          "src/main/resources/assets/alan_walker_music/items/broken_strings.json",
+          "src/main/resources/data/alan_walker_music/jukebox_song/broken_strings.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "NotHome",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_home",
+      "metadata": {
+        "files": [
+          "src/main/java/net/florianmeixnerdev/alanwalkermusic/item/NotHomeItem.java",
+          "src/main/resources/data/alan_walker_music/jukebox_song/not_home.json",
+          "src/main/resources/assets/alan_walker_music/models/item/not_home.json",
+          "src/main/resources/assets/alan_walker_music/items/not_home.json"
+        ]
+      },
+      "path": "~/Disc"
+    },
+    {
+      "name": "Faded10thAniniversary",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_10th_aniniversary",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alan_walker_music/jukebox_song/faded_10th_aniniversary.json",
+          "src/main/resources/assets/alan_walker_music/items/faded_10th_aniniversary.json",
+          "src/main/resources/assets/alan_walker_music/models/item/faded_10th_aniniversary.json",
+          "src/main/java/net/florianmeixnerdev/alanwalkermusic/item/Faded10thAniniversaryItem.java"
+        ]
+      },
+      "path": "~/Disc"
     }
   ],
   "variable_elements": [],
@@ -1181,10 +1229,37 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "brokenstrings",
+      "files": [
+        "alan_walker_-_broken_strings_official_music_video_tuberipper.cc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "nothome",
+      "files": [
+        "alan_walker_-_not_home_official_lyric_video_tuberipper.cc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "faded_10th_anniversary",
+      "files": [
+        "faded_-_10th_anniversary_performance_video_tuberipper.cc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
     "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Faded10thAniniversary",
+      "~CUSTOM:NotHome",
+      "~CUSTOM:BrokenStrings",
       "~CUSTOM:RiseOfTheDrones",
       "~CUSTOM:WecomeToWalkerworld",
       "~CUSTOM:SpaceMelody",
@@ -1359,7 +1434,20 @@
       "gui.alan_walker_music.link_info.button_github": "Github",
       "gui.alan_walker_music.link_info.button_modrinth": "Modrinth",
       "gui.alan_walker_music.link_info.button_close": "Close",
-      "gui.alan_walker_music.ingame_menu.label_made_by_florianmeixnerdev": "Made by FlorianMeixnerDEV"
+      "gui.alan_walker_music.ingame_menu.label_made_by_florianmeixnerdev": "Made by FlorianMeixnerDEV",
+      "gui.alan_walker_music.link_info.label_github_source_code": "Github Source Code",
+      "gui.alan_walker_music.link_info.label_mod_page": "Mod Page",
+      "gui.alan_walker_music.link_info.label_here_you_can_find_my_online_pres": "Here you can find my ",
+      "gui.alan_walker_music.link_info.label_online_presence": "online presence:",
+      "subtitles.brokenstrings": "",
+      "subtitles.nothome": "",
+      "subtitles.faded_10th_anniversary": "",
+      "item.alan_walker_music.broken_strings": "Schallplatte",
+      "item.alan_walker_music.not_home": "Schallplatte",
+      "item.alan_walker_music.faded_10th_aniniversary": "Schallplatte",
+      "item.alan_walker_music.broken_strings.desc": "Alan Walker - Broken Strings ",
+      "item.alan_walker_music.not_home.desc": "Alan Walker - Not Home",
+      "item.alan_walker_music.faded_10th_aniniversary.desc": "Faded - 10th Anniversary (Performance Song)"
     }
   },
   "metadata": {
@@ -1443,7 +1531,7 @@
   "workspaceSettings": {
     "modid": "alan_walker_music",
     "modName": "Alan Walker Music",
-    "version": "1.4.5",
+    "version": "1.4.6",
     "description": "This mod brings the unforgettable sounds of Alan Walker directly into your Minecraft world! Discover new, collectible music tracks and face three unique new mobs that provide a musical challenge.",
     "author": "FlorianMeixnerDEV",
     "websiteURL": "https://florianmeixnerdev.github.io",

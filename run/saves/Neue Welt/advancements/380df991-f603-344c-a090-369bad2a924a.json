@@ -257,20 +257,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2026-01-10 15:50:24 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2026-01-10 15:50:24 +0100"
-    },
-    "done": true
-  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:spider": "2026-01-17 10:32:32 +0100",
       "minecraft:creeper": "2026-01-10 15:49:27 +0100"
     },
     "done": false
@@ -292,6 +281,24 @@
       "has_gunpowder": "2026-01-10 15:49:30 +0100"
     },
     "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2026-01-10 15:50:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2026-01-10 15:50:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2026-01-17 10:30:18 +0100"
+    },
+    "done": false
   },
   "DataVersion": 4440
 }

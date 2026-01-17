@@ -33,14 +33,19 @@ public class LinkInfoScreen extends AbstractContainerScreen<LinkInfoMenu> implem
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 176;
-		this.imageHeight = 166;
+		this.imageWidth = 200;
+		this.imageHeight = 200;
 	}
 
 	@Override
 	public void updateMenuState(int elementType, String name, Object elementState) {
 		menuStateUpdateActive = true;
 		menuStateUpdateActive = false;
+	}
+
+	@Override
+	public boolean isPauseScreen() {
+		return true;
 	}
 
 	private static final ResourceLocation texture = ResourceLocation.parse("alan_walker_music:textures/screens/link_info.png");
@@ -54,7 +59,7 @@ public class LinkInfoScreen extends AbstractContainerScreen<LinkInfoMenu> implem
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("alan_walker_music:textures/screens/awlogo128.png"), this.leftPos + 24, this.topPos + 7, 0, 0, 128, 13, 128, 13);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("alan_walker_music:textures/screens/awlogo128.png"), this.leftPos + 38, this.topPos + 11, 0, 0, 128, 13, 128, 13);
 	}
 
 	@Override
@@ -68,7 +73,8 @@ public class LinkInfoScreen extends AbstractContainerScreen<LinkInfoMenu> implem
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.alan_walker_music.link_info.label_links"), 78, 34, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.alan_walker_music.link_info.label_here_you_can_find_my_online_pres"), 49, 38, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.alan_walker_music.link_info.label_online_presence"), 62, 53, -12829636, false);
 	}
 
 	@Override
@@ -81,7 +87,7 @@ public class LinkInfoScreen extends AbstractContainerScreen<LinkInfoMenu> implem
 				ClientPacketDistributor.sendToServer(new LinkInfoButtonMessage(0, x, y, z));
 				LinkInfoButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 15, this.topPos + 61, 67, 20).build();
+		}).bounds(this.leftPos + 4, this.topPos + 98, 67, 20).build();
 		this.addRenderableWidget(button_modrinth);
 		button_github = Button.builder(Component.translatable("gui.alan_walker_music.link_info.button_github"), e -> {
 			int x = LinkInfoScreen.this.x;
@@ -90,7 +96,7 @@ public class LinkInfoScreen extends AbstractContainerScreen<LinkInfoMenu> implem
 				ClientPacketDistributor.sendToServer(new LinkInfoButtonMessage(1, x, y, z));
 				LinkInfoButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 96, this.topPos + 61, 56, 20).build();
+		}).bounds(this.leftPos + 139, this.topPos + 98, 56, 20).build();
 		this.addRenderableWidget(button_github);
 		button_website = Button.builder(Component.translatable("gui.alan_walker_music.link_info.button_website"), e -> {
 			int x = LinkInfoScreen.this.x;
@@ -99,7 +105,7 @@ public class LinkInfoScreen extends AbstractContainerScreen<LinkInfoMenu> implem
 				ClientPacketDistributor.sendToServer(new LinkInfoButtonMessage(2, x, y, z));
 				LinkInfoButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 60, this.topPos + 97, 61, 20).build();
+		}).bounds(this.leftPos + 75, this.topPos + 98, 61, 20).build();
 		this.addRenderableWidget(button_website);
 		button_close = Button.builder(Component.translatable("gui.alan_walker_music.link_info.button_close"), e -> {
 			int x = LinkInfoScreen.this.x;
@@ -108,7 +114,7 @@ public class LinkInfoScreen extends AbstractContainerScreen<LinkInfoMenu> implem
 				ClientPacketDistributor.sendToServer(new LinkInfoButtonMessage(3, x, y, z));
 				LinkInfoButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
-		}).bounds(this.leftPos + 62, this.topPos + 142, 51, 20).build();
+		}).bounds(this.leftPos + 77, this.topPos + 171, 51, 20).build();
 		this.addRenderableWidget(button_close);
 	}
 }

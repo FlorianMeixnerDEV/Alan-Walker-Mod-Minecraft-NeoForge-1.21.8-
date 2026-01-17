@@ -1,20 +1,4 @@
 /gamemode survival
-/clear
-/give dev anvil
-/gamemode creative
-/opengui
-/info
-/summon minecraft:guardian
-/summon minecraft:elder_guardian
-/time set night
-/tp @e Dev
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gui
-/info
-/gamemode creative
-/gamemode survival
 /give Dev jukebox
 /gamemode creative
 /clear
@@ -48,3 +32,19 @@
 /attribute @p minecraft:scale base set 2
 /attribute @p minecraft:scale base set 1
 /attribute @p minecraft:scale base reset
+/gamemode creative
+/info
+/clear
+/give Dev jukebox
+/gamemode survival
+/give dev minecraft:cooked_beef 64
+/summon alan_walker_music:bodyguard
+/summon zombie ~5 ~ ~
+/summon alan_walker_music:bodyguard
+/summon spider ~5 ~ ~
+/summon alan_walker_music:bodyguard
+/summon creeper ~ ~ ~5
+/summon witch ~ ~ ~5
+/gamemode creative
+/gamemode survival
+/time set day

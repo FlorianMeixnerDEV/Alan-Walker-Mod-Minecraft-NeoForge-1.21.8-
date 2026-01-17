@@ -56,6 +56,9 @@ public class AlanWalkerMusicModItems {
 	public static final DeferredItem<Item> BODYGUARD_SPAWN_EGG;
 	public static final DeferredItem<Item> BAD_ALAN_SPAWN_EGG;
 	public static final DeferredItem<Item> TISCH;
+	public static final DeferredItem<Item> BROKEN_STRINGS;
+	public static final DeferredItem<Item> NOT_HOME;
+	public static final DeferredItem<Item> FADED_10TH_ANINIVERSARY;
 	static {
 		ALAN_WALKER_135 = register("alan_walker_135", AlanWalker135Item::new);
 		WELCOME_TO_LONELY_CLUB = register("welcome_to_lonely_club", WelcomeToLonelyClubItem::new);
@@ -94,6 +97,9 @@ public class AlanWalkerMusicModItems {
 		BODYGUARD_SPAWN_EGG = register("bodyguard_spawn_egg", properties -> new SpawnEggItem(AlanWalkerMusicModEntities.BODYGUARD.get(), properties));
 		BAD_ALAN_SPAWN_EGG = register("bad_alan_spawn_egg", properties -> new SpawnEggItem(AlanWalkerMusicModEntities.BAD_ALAN.get(), properties));
 		TISCH = block(AlanWalkerMusicModBlocks.TISCH);
+		BROKEN_STRINGS = register("broken_strings", BrokenStringsItem::new);
+		NOT_HOME = register("not_home", NotHomeItem::new);
+		FADED_10TH_ANINIVERSARY = register("faded_10th_aniniversary", Faded10thAniniversaryItem::new);
 	}
 
 	// Start of user code block custom items
